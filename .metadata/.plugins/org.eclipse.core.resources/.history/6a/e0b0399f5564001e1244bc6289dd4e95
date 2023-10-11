@@ -1,0 +1,30 @@
+package hoja1;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Ejercicio04 {
+
+public static void main(String[] args) {
+
+Scanner entrada = new Scanner(System.in);
+
+int password;
+
+try {
+System.out.println("Introduzca la contraseña, SOLO NUMEROS");
+password = entrada.nextInt();
+
+if(password == 1234) {
+System.out.println("Acceso concedido");
+}else {
+System.out.println("Acceso denegado");
+}
+
+} catch (InputMismatchException ex) {
+System.out.println("La contraseña son numeros... aprende a leer");
+}
+
+}
+
+}

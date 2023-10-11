@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+// Programa que pregunta la temperatura de una cámara frigorífica
+// y da instrucciones.
+public class Ejemplo03 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("*** CÁMARA FRIGORÍFICA ***");
+		
+		
+
+	}
+
+}

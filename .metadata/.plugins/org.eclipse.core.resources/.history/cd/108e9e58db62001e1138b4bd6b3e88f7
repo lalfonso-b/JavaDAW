@@ -1,0 +1,13 @@
+
+public class Ejemplo13 {
+	
+	public static void main(String[] args) {
+	
+		System.out.println("Aquí \tvendrá un tabulado.");
+		
+		System.out.println("Esto se escribe en una línea, \ny esto en otra.");
+		
+		System.out.println("A la vora de l'aigua");
+	}
+
+}

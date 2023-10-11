@@ -1,0 +1,46 @@
+package hoja1;
+
+import java.util.Scanner;
+
+public class Ejer06 {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("¿Cuál es el precio del producto?");
+		float precio = entrada.nextFloat();
+
+		System.out.println("Número de únidades compradas");
+		int cantidad = entrada.nextInt();
+
+		float precioCompra = precio * cantidad;
+		
+		if (precioCompra > 75) {
+
+			System.out.println("Se aplica un 15% de descuento.");
+
+			float cantidadDescontada = 15 * precio / 100;
+
+			precioCompra = precio - cantidadDescontada;
+
+		} else {
+
+			System.out.println("Se aplica un 5% de descuento.");
+
+			float cantidadDescontada = 5 * precio / 100;
+
+			float precioFinal = precio - cantidadDescontada;
+
+			System.out.println("El precio final es de " 
+					+ precioFinal + " euros.");
+
+		}
+
+		System.out.println("Fin del programa.");
+
+		entrada.close();
+
+	}
+
+}
