@@ -1,0 +1,20 @@
+
+// Programa que pregunta la clasificación de un corredor y nos muestra
+// qué premio le corresponde.
+
+import java.util.Scanner;
+
+public class Ejemplo06 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Clasificación del jugador: ");
+		int clasificacion = entrada.nextInt();
+		
+		
+
+	}
+
+}

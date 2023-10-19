@@ -1,0 +1,12 @@
+
+// Programa que pregunta la clasificación de un corredor y nos muestra
+// qué premio le corresponde.
+public class Ejemplo06 {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
