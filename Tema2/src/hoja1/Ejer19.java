@@ -2,7 +2,7 @@ package hoja1;
 
 import java.util.Scanner;
 
-public class Ejer18 {
+public class Ejer19 {
 
 	public static void main(String[] args) {
 
@@ -10,6 +10,9 @@ public class Ejer18 {
 
 		System.out.println("       ##### CALENDARIO #####");
 
+		System.out.println("Dime el año:");
+		int anyo = entrada.nextInt();
+		
 		System.out.println("Dime un número de mes y te diré el número de días que tiene:");
 		int mes = entrada.nextInt();
 
@@ -25,7 +28,16 @@ public class Ejer18 {
 			break;
 
 		case 2:
-			System.out.println("28 días");
+			
+			// La segunda condición anyo%100 sobra pero la dejamos para
+			// que se entienda mejor.
+			if(anyo%100 != 0 && anyo%4 == 0 
+				||anyo%100 == 0 && anyo%400 == 0) {
+				System.out.println("29 días");
+			}else {
+				System.out.println("28 días");
+			}
+			
 			break;
 
 		case 4:
