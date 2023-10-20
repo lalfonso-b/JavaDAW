@@ -1,0 +1,27 @@
+package hoja1;
+
+import java.util.Scanner;
+
+public class Ejer20 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("     ===== CALCULADORA =====\n");
+		
+		System.out.print("Primero operando: ");
+		float num1 = entrada.nextFloat();
+		
+		System.out.print("Segundo operando: ");
+		float num2 = entrada.nextFloat();
+		
+		System.out.println("\t1) Suma");
+		System.out.println("\t2) Resta");
+		System.out.println("\t3) Multiplicación");
+		System.out.println("\t4) División");
+		
+		
+	}
+
+}
