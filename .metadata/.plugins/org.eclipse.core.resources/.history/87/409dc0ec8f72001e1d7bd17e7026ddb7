@@ -23,11 +23,7 @@ public class Ejemplo09 {
 			double temp = entrada.nextDouble();
 			
 			if(temp < 15) {
-				System.out.println("¡Hace fresquito!");
-			}else if(temp>=15 && temp <25) {
-				System.out.println("Hace buen tiempo.");
-			}else {
-				System.out.println("¡Hace calor!");
+				System.out.println("Hace fresquito");
 			}
 			
 		}else {
