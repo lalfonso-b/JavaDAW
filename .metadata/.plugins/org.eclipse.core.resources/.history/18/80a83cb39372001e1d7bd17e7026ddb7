@@ -9,7 +9,7 @@ public class Ejemplo10 {
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
-		int num1 = 0, num2 = 0;
+		int num1, num2;
 		
 		// Pedimos un número entero. Si el usuario se equivoca, el 
 		// programa termina.
@@ -31,10 +31,9 @@ public class Ejemplo10 {
 			System.exit(0);
 		}
 		
-		// Hacemos la operación.
-		System.out.println("La suma de los dos números es " 
-				+ (num1+num2));
 		
+		
+		System.out.println("Escribe el segundo número:");
 	}
 
 }
