@@ -17,11 +17,8 @@ public class Ejer05 {
 		System.out.print("Ingrese el descuento que se le debe hacer: ");
 		double descuento = in.nextDouble();
 
-		System.out.println("El producto llamado: " + nombre 
-				+ " cuesta: " + precio + " €. " 
-				+ "\nCon un descuento del: "
-				+ descuento + " % el precio final es: " 
-				+ (precio - (precio * descuento/100)) + " €.");
+		System.out.println("El producto llamado: " + nombre + " cuesta: " + precio + " €. " + "\nCon un descuento del: "
+				+ descuento + " % el precio final es: " + (precio - (precio * descuento / 100)) + " €.");
 
 	}
 

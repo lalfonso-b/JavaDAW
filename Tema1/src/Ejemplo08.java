@@ -11,7 +11,7 @@ public class Ejemplo08 {
 
 		// Operación OR.
 		System.out.println("OR: " + (a || b));
-		
+
 		// Operación NOT.
 		System.out.println("NOT: " + (!b));
 

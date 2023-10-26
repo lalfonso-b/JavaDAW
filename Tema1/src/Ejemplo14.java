@@ -13,9 +13,8 @@ public class Ejemplo14 {
 		System.out.println("\n¿Cuántos años tienes?");
 		int edad = entrada.nextInt();
 
-		System.out.println("Te llamas " + nombre + " y tienes " 
-				+ edad + " años.");
-		
+		System.out.println("Te llamas " + nombre + " y tienes " + edad + " años.");
+
 		entrada.close();
 
 	}

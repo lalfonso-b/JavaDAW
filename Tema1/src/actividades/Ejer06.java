@@ -25,9 +25,8 @@ public class Ejer06 {
 		System.out.println("Indica el número de unidades vendidas");
 		int cantidadesVendidas = escaner.nextInt();
 
-		System.out.println("El coste total (" + nombreArticulo 
-				+ ") de la compra es: " 
-				+ (precio * cantidadesVendidas) + " euros.");
+		System.out.println("El coste total (" + nombreArticulo + ") de la compra es: " + (precio * cantidadesVendidas)
+				+ " euros.");
 
 	}
 

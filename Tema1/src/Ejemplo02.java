@@ -8,14 +8,14 @@ public class Ejemplo02 {
 
 		// Declaramos e inicializamos la variable dni.
 		String dni3 = "10000000Y";
-		
+
 		System.out.println(edadPaciente);
 		System.out.println(dni3);
-		
+
 		// Las variables reciben ese nombre porque su valor puede variar.
 		edadPaciente = 100;
 		System.out.println(edadPaciente);
-		
+
 	}
 
 }
