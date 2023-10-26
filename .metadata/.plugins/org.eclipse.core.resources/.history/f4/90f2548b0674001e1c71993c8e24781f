@@ -1,0 +1,12 @@
+package ejemplosBucles;
+
+public class Ejemplo02 {
+
+	public static void main(String[] args) {
+		
+		// Mostrar cinco veces vuestro nombre.
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package ejemplosBucles;
+
+import java.util.Scanner;
+
+public class Ejemplo05 {
+
+	public static void main(String[] args) {
+		
+		// Este programa pedirá una serie de precios al usuario.
+		// Cuando el usuario escriba un cero, el programa parará.
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Ve introduciendo los precios de la cuenta.");
+		
+		System.out.print("Precio: ");
+		float precio = entrada.nextFloat();
+		
+		while() {
+			
+		}
+	}
+
+}
