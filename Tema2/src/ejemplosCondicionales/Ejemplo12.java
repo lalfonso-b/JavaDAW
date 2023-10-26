@@ -1,4 +1,5 @@
 package ejemplosCondicionales;
+
 import java.util.Scanner;
 
 public class Ejemplo12 {

@@ -3,33 +3,29 @@
 // te da tiempo.
 package ejemplosCondicionales;
 
-
 import java.util.Scanner;
 
 public class Ejemplo05 {
-	
+
 	public static void main(String[] args) {
-		
+
 		Scanner entrada = new Scanner(System.in);
-		
+
 		System.out.println("¿De qué color está el semáforo?");
 		String color = entrada.nextLine();
-		
+
 		color = color.toLowerCase();
-		
-		if(color.equals("verde")) {
+
+		if (color.equals("verde")) {
 			System.out.println("Pasar");
-		}else if(color.equals("rojo")) {
+		} else if (color.equals("rojo")) {
 			System.out.println("Parar");
-		}else {
+		} else {
 			System.out.println("Frenar si estamos a tiempo");
 		}
-		
+
 		System.out.println("Gracias.");
-		
+
 	}
 
 }
-
-
-

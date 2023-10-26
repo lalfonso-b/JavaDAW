@@ -13,10 +13,10 @@ public class Ejer02 {
 
 		if (precio > 80) {
 			System.out.println("Se aplicará un 10% de descuento.");
-			precio  = precio - precio * 0.1F;
+			precio = precio - precio * 0.1F;
 
 		}
-		
+
 		System.out.println("Precio final: " + precio + " €.");
 
 	}

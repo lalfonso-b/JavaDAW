@@ -9,8 +9,7 @@ public class Ejer21 {
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("=====Escoge idioma====");
-		System.out.println("1) Francés" + "\n2) Inglés" + "\n3) Alemán" 
-				+ "\n4) Italiano");
+		System.out.println("1) Francés" + "\n2) Inglés" + "\n3) Alemán" + "\n4) Italiano");
 		int opcion = entrada.nextInt();
 
 		switch (opcion) {

@@ -10,7 +10,7 @@ public class Ejer24 {
 
 		System.out.println("Dime la edad: ");
 		int edad = entrada.nextInt();
-		
+
 		boolean mayorDeEdad;
 
 		mayorDeEdad = (edad < 18) ? false : true;

@@ -17,7 +17,7 @@ public class Ejer06 {
 		float totalCompra = precio * cantidad;
 
 		float cantidadDescontada;
-		
+
 		if (totalCompra > 75) {
 
 			System.out.println("Se aplica un 15% de descuento.");
@@ -36,8 +36,7 @@ public class Ejer06 {
 
 		}
 
-		System.out.println("El precio final es de " + totalCompra 
-				+ " euros.");
+		System.out.println("El precio final es de " + totalCompra + " euros.");
 
 		System.out.println("Fin del programa.");
 

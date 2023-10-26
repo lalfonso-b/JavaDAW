@@ -20,8 +20,7 @@ public class Ejer23 {
 
 			} else {
 
-				System.out.println("Ese número no vale tiene que ser entre"
-						+ "1 y el 10");
+				System.out.println("Ese número no vale tiene que ser entre" + "1 y el 10");
 
 			}
 

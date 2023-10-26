@@ -10,44 +10,30 @@
 */
 package ejemplosCondicionales;
 
-
 import java.util.Scanner;
 
 public class Ejemplo09 {
-	
+
 	public static void main(String[] args) {
-		
+
 		Scanner entrada = new Scanner(System.in);
-		
+
 		System.out.println("Introduce una temperatura:");
-		if(entrada.hasNextDouble()) {
+		if (entrada.hasNextDouble()) {
 			double temp = entrada.nextDouble();
-			
-			if(temp < 15) {
+
+			if (temp < 15) {
 				System.out.println("¡Hace fresquito!");
-			}else if(temp>=15 && temp <25) {
+			} else if (temp >= 15 && temp < 25) {
 				System.out.println("Hace buen tiempo.");
-			}else {
+			} else {
 				System.out.println("¡Hace calor!");
 			}
-			
-		}else {
+
+		} else {
 			System.out.println("Eres torpe.");
 		}
-		
+
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

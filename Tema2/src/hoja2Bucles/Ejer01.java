@@ -5,7 +5,7 @@ import java.util.Scanner;
 // Crea un programa que pida un carácter al usuario. A continuación 
 // lo escribirá 100 veces.
 public class Ejer01 {
-	
+
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);

@@ -18,7 +18,7 @@ public class Ejemplo03 {
 			System.out.println("Carlos");
 			contador++;
 		}
-		
+
 		System.out.println("\nDe nada.");
 
 	}

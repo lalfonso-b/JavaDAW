@@ -10,7 +10,7 @@ public class Ejer08 {
 
 		System.out.println("¿Cómo se dice en inglés ordenador?");
 		String palabra = entrada.nextLine();
-		
+
 		// Pasamos palabra a minúsculas.
 		palabra = palabra.toLowerCase();
 

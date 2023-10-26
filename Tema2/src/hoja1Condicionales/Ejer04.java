@@ -14,7 +14,7 @@ public class Ejer04 {
 		System.out.println("Introduzca la contraseña, SÓLO NUMEROS");
 		password = entrada.nextLine();
 
-		// Al ser String, para ver si password es "1234" hay que usar el 
+		// Al ser String, para ver si password es "1234" hay que usar el
 		// método equals(), no podemos utilizar "==".
 		if (password.equals("1234")) {
 			System.out.println("Acceso concedido");

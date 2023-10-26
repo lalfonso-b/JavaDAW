@@ -65,8 +65,7 @@ public class Ejer13 {
 
 		} else {
 
-			System.out.println("Error el valor tiene que ser un número "
-					+ "del 0 al 10");
+			System.out.println("Error el valor tiene que ser un número " + "del 0 al 10");
 
 		}
 

@@ -4,30 +4,23 @@
 
 // "TEMPERATURA DEL REACTOR CRÍTICA. ¡CORRED, INSENSATOS!
 
-
 package hoja1Condicionales;
-
 
 import java.util.Scanner;
 
-
 public class Ejer01 {
-
 
 	public static void main(String[] args) {
 
-
 		Scanner entrada = new Scanner(System.in);
-		
+
 		System.out.println("*** MENU DEL REACTOR ***");
 
 		System.out.println("\n¿Cual es la temperatura actual del reactor?");
 
 		float temp = entrada.nextFloat();
 
-		
-
-		if(temp > 120) {
+		if (temp > 120) {
 
 			System.out.println("*** TEMPERATURA DEL REACTOR CRÍTICA ***");
 
@@ -35,11 +28,8 @@ public class Ejer01 {
 
 		}
 
-		
-
 		System.out.println("\nFin del aviso");
 
 	}
-
 
 }

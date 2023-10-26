@@ -2,7 +2,6 @@
 // qué premio le corresponde.
 package ejemplosCondicionales;
 
-
 import java.util.Scanner;
 
 public class Ejemplo06 {
@@ -13,21 +12,21 @@ public class Ejemplo06 {
 
 		System.out.print("Clasificación del jugador (1 / 2 / 3): ");
 		int clasificacion = entrada.nextInt();
-		
-		switch(clasificacion) {
-		
+
+		switch (clasificacion) {
+
 		case 1:
 			System.out.println("Medalla de oro.");
 			break;
-		
+
 		case 2:
 			System.out.println("Medalla de plata.");
 			break;
-		
+
 		case 3:
 			System.out.println("Medalla de bronce.");
 			break;
-			
+
 		default:
 			System.out.println("Lo siento, no tienes medalla.");
 		}

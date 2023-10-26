@@ -10,10 +10,10 @@ public class Ejer25 {
 
 		System.out.println("¿Cómo te llamas?");
 		String nombre = entrada.nextLine();
-		
-		if(nombre.equals("")) {
+
+		if (nombre.equals("")) {
 			nombre = "desconocido";
-		}else {
+		} else {
 			nombre = nombre; // Nombre se queda igual. No hacerlo así.
 		}
 

@@ -13,7 +13,7 @@ public class Ejer09 {
 		System.out.println("*** INGRESE CLAVE DE ACCESO ***");
 		String clave = entrada.nextLine();
 
-		// Recuerda que para comparar dos cadenas no podemos 
+		// Recuerda que para comparar dos cadenas no podemos
 		// usar "==", hay que usar
 		// Tuvariable.equals(cadena).
 		if (clave.equals(CLAVE_REQUERIDA)) {
