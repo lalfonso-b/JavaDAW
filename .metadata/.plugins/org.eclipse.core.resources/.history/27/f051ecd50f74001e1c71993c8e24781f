@@ -18,7 +18,7 @@ public class Ejer01 {
 		int contador = 1;
 		while(contador <= 100) {
 			
-			System.out.println(contador + " " + caracter);
+			System.out.println(caracter);
 			contador++;
 			
 		}

@@ -16,10 +16,8 @@ public class Ejer01 {
 		// Repetimos el carácter 100 veces.
 		
 		int contador = 1;
-		while(contador <= 100) {
-			
-			System.out.println(contador + " " + caracter);
-			contador++;
+		while() {
+			System.out.println(caracter);
 			
 		}
 		
