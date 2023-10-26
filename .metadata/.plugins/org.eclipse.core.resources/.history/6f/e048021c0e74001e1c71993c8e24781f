@@ -2,7 +2,7 @@ package ejemplosBucles;
 
 import java.util.Scanner;
 
-public class Ejemplo06 {
+public class Ejemplo06b {
 	
 	public static void main(String[] args) {
 		

@@ -16,7 +16,7 @@ public class Ejemplo06 {
 		
 		String nombre = "";
 		
-		while(!nombre.equals("Pepe")) {
+		while(nombre.equals("Pepe")) {
 			
 			System.out.print("Nombre: ");
 			nombre = entrada.nextLine();

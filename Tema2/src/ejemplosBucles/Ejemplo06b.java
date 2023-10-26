@@ -2,7 +2,7 @@ package ejemplosBucles;
 
 import java.util.Scanner;
 
-public class Ejemplo06 {
+public class Ejemplo06b {
 	
 	public static void main(String[] args) {
 		
@@ -14,7 +14,8 @@ public class Ejemplo06 {
 		
 		System.out.println("¡Ve diciéndome nombres, por favor!");
 		
-		String nombre = "";
+		System.out.print("Nombre: ");
+		String nombre = entrada.nextLine();
 		
 		while(!nombre.equals("Pepe")) {
 			
