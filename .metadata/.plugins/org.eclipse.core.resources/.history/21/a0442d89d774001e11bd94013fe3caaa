@@ -16,14 +16,9 @@ public class Ejer04 {
 		System.out.println("Di un número entre 1 y 5:");
 		int num = entrada.nextInt();
 		
-		while(num != 3) {
-			
-			System.out.println("Casi, di otro número entre 1 y 5:");
-			num = entrada.nextInt();
+		while() {
 			
 		}
-		
-		System.out.println("Felicidades, has acertado.");
 
 	}
 

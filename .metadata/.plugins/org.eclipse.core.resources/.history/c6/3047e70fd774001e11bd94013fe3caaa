@@ -23,7 +23,6 @@ public class Ejer03 {
 		}
 		
 		System.out.println("Tu número es el " + num);
-		
 	}
 
 }

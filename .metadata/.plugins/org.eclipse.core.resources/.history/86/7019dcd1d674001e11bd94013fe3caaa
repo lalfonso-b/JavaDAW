@@ -16,13 +16,9 @@ public class Ejer03 {
 		System.out.println("Dime un número entero:");
 		int num = entrada.nextInt();
 		
-		while(num < 1 || num > 10) {
-			System.out.println("Tienes que decir un nº entre 1 y 10. "
-					+ "Vuelve a probar:");
-			num = entrada.nextInt();
+		while(num <= 1 && num >= 10) {
+			
 		}
-		
-		System.out.println("Tu número es el " + num);
 		
 	}
 
