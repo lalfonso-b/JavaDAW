@@ -1,0 +1,31 @@
+// Crea un programa que escriba los 50 primeros
+
+// números pares.
+
+
+public class Actividad07 {
+
+
+public static void main(String[] args) {
+
+System.out.println("Los 50 primeros numeros pares:");
+
+
+int num = 0;
+
+while (num <= 100) {
+
+if (num % 2 == 0) {
+
+System.out.println(num);
+
+}
+
+num++;
+
+}
+
+}
+
+
+}

@@ -1,0 +1,24 @@
+package hoja2Bucles;
+// Crea un programa que escriba los 50 primeros
+
+// números pares.
+
+public class Ejer07 {
+
+	public static void main(String[] args) {
+
+		System.out.println("Los 50 primeros numeros pares:");
+
+		int contador = 1;
+
+		while (contador <= 50) {
+
+			System.out.println(num);
+
+			num += 2;
+
+		}
+
+	}
+
+}
