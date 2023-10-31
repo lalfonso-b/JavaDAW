@@ -9,6 +9,7 @@ public class Ejer05 {
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Introduce un número: ");
+
 		int num = entrada.nextInt();
 
 		int mult = 1;
