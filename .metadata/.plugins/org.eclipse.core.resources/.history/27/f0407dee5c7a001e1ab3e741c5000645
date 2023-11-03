@@ -1,0 +1,19 @@
+package ejemplosBucles;
+
+import java.util.Scanner;
+
+public class Ejemplo10 {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		// Bucle while
+		
+		
+		
+		// Bucle for
+		
+	}
+
+}

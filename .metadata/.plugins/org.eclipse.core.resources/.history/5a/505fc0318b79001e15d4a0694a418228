@@ -1,0 +1,41 @@
+package hoja2Bucles;
+
+import java.util.Scanner;
+
+public class Ejer09 {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+
+		int num1, num2, resultado;
+
+		System.out.println("Escribe dos números enteros");
+
+		System.out.print("Número1: ");
+		num1 = entrada.nextInt();
+
+		System.out.print("Número2: ");
+		num2 = entrada.nextInt();
+
+		resultado = num1 - num2;
+
+		System.out.println(num1 + " - " + num2 + " = " + resultado);
+
+		num1 = resultado;
+
+		while (resultado >= num2) {
+
+			resultado = num1 - num2;
+			
+			System.out.println(num1 + " - " + num2 + " = " + resultado);
+
+			num1 = resultado;
+
+			
+
+		}
+
+	}
+
+}
