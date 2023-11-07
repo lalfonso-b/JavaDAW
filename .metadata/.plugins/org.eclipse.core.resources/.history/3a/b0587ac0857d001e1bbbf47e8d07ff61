@@ -20,13 +20,10 @@ public class Ejer23 {
 				System.out.print("Nota " + i + ": ");
 				nota = entrada.nextDouble();
 			}while(nota < 0 || nota > 10);
-			
 			System.out.println();
-			suma = suma + nota;
+			
 			
 		}
-		
-		System.out.println("La nota media es " + suma/5);
 		
 	}
 

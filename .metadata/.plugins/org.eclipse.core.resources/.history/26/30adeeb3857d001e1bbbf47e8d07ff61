@@ -11,7 +11,6 @@ public class Ejer23 {
 		System.out.println("Introduce 5 notas válidas (entre 0 y 10):");
 		
 		double nota;
-		double suma = 0;
 		
 		// Pedimos cinco notas.
 		for(int i = 1; i <= 5; i++) {
@@ -20,13 +19,9 @@ public class Ejer23 {
 				System.out.print("Nota " + i + ": ");
 				nota = entrada.nextDouble();
 			}while(nota < 0 || nota > 10);
-			
 			System.out.println();
-			suma = suma + nota;
 			
 		}
-		
-		System.out.println("La nota media es " + suma/5);
 		
 	}
 
