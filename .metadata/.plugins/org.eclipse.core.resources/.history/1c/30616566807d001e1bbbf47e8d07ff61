@@ -1,0 +1,23 @@
+package hoja2Bucles;
+
+public class Ejer22 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		Tabla del 1
+		Tabla del 2
+		Tabla del 3
+		...
+		Tabla del 10
+		
+		
+		
+		
+		
+		
+		 */
+		
+	}
+
+}
