@@ -1,0 +1,13 @@
+package ejemplosBucles;
+
+public class Ejemplo11 {
+	
+	public static void main(String[] args) {
+		
+		// Aplicación que pregunta al usuario un número entre 1 y 5. 
+		// Si responde "3", se le felicitará por haber acertado. 
+		// Si no, se le seguirá pidiendo más números.
+		
+	}
+
+}
