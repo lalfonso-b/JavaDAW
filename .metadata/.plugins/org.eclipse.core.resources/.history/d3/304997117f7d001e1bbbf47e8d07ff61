@@ -24,7 +24,7 @@ public class Ejemplo13 {
 
 		Scanner entrada = new Scanner(System.in);
 
-		int dividendo, divisor, resultado = 0;
+		int dividendo, divisor, resultado;
 
 		System.out.println("Escribe dos números enteros");
 
@@ -40,10 +40,17 @@ public class Ejemplo13 {
 
 		} else {
 			
+			resultado = dividendo - divisor;
+
+			System.out.println(dividendo + " - " + divisor + " = " 
+					+ resultado);
+
+			dividendo = resultado;
+
 			// Variable semáforo.
-			boolean continuarDividiendo = true;
+			boolean continuarDividiendo = (resultado >= divisor);
 			
-			while (continuarDividiendo) {
+			while () {
 
 				resultado = dividendo - divisor;
 
@@ -51,10 +58,6 @@ public class Ejemplo13 {
 						+ resultado);
 
 				dividendo = resultado;
-				
-				if(resultado < divisor) {
-					continuarDividiendo = false;
-				}
 
 			}
 
