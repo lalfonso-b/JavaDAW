@@ -19,6 +19,7 @@ public class Ejemplo14 {
 			
 			if(nombre.equals("parar")) {
 				System.out.println("Parando.");
+				// La instrucción break hace que el bucle termine de golpe.
 				break;
 			}
 		}

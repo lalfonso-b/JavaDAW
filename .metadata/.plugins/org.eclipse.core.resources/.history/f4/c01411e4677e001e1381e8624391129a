@@ -1,0 +1,17 @@
+package hoja2Bucles;
+
+/*
+Crea un programa que vaya pidiendo cinco números para mostrar sus tablas de multiplicar. Si
+el número introducido es 1, el programa escribirá el mensaje "¡No seas tonto!" y se volverá a
+formular la pregunta.
+Utiliza la instrucción continue.
+*/
+public class Ejer26 {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}
