@@ -37,7 +37,7 @@ public class Ejer1 {
 		}
 
 		// Indicamos el resultado.
-		if (acertado == true) {
+		if (acertado) {
 			System.out.println("Acertaste.");
 			System.out.println("Intentos usados = " + intentos);
 		} else {
