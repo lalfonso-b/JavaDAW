@@ -1,22 +1,37 @@
 package hoja1;
 
+import java.util.Scanner;
+
 public class Ejer11 {
 
 	public static void main(String[] args) {
 
-		String[] matriculas = new String[100];
+		Scanner entrada = new Scanner(System.in);
 
-		// Asignamos un valor inicial de "sinmatricula" a cada posición
-		// del array.
-		for (int i = 0; i < matriculas.length; i++) {
-			matriculas[i] = "sinmatricula";
+		String[] ordenes = new String[1000];
+
+		System.out.println("Órdenes que debe seguir el robot.");
+		
+		int i = 0;
+		while (i < ordenes.length) {
+			System.out.println("\nOrden:");
+			ordenes[i] = entrada.nextLine();
+
+			if (ordenes[i].equals("ejecutar")) {
+				break;
+			}
+			i++;
 		}
+		
+		i = 0;
+		System.out.println("Las órdenes son: ");
+		while (i < ordenes.length) {
 
-		// Mostramos el resultado
-		System.out.println("Listado de matrículas");
-		System.out.println("============================");
-		for (int i = 0; i < matriculas.length; i++) {
-			System.out.println(matriculas[i]);
+			if (ordenes[i].equals("ejecutar")) {
+				break;
+			}
+			System.out.println(ordenes[i]);
+			i++;
 		}
 
 	}
