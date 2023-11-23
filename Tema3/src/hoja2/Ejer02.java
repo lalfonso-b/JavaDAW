@@ -23,8 +23,7 @@ public class Ejer02 {
 
 			if (estaturas[i] > 1.90) {
 
-				System.out.println("\nSe ha encontrado una estatura de "
-						+ "más de 1'90");
+				System.out.println("\nSe ha encontrado una estatura de " + "más de 1'90");
 				break;
 
 			}
