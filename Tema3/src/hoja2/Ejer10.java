@@ -19,7 +19,8 @@ public class Ejer10 {
 
 		// Leemos las temperaturas.
 
-		System.out.println("Introduce las temperaturas de las últimas " + "ocho horas, por favor:");
+		System.out.println("Introduce las temperaturas de las últimas " 
+			+ "ocho horas, por favor:");
 
 		for (int i = 0; i < temperaturas.length; i++) {
 			System.out.print("Temperatura " + i + ": ");
