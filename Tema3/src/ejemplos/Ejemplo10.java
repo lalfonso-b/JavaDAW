@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 // Algoritmo de seleccion
 
-public class Ejem10 {
+public class Ejemplo10 {
 
 	public static void main(String[] args) {
 

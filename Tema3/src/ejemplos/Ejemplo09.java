@@ -3,7 +3,7 @@ package ejemplos;
 import java.util.Arrays;
 
 // Intercambiar los valores de dos variables.
-public class Ejem09 {
+public class Ejemplo09 {
 
 	public static void main(String[] args) {
 
