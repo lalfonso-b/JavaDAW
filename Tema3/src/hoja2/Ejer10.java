@@ -45,21 +45,18 @@ public class Ejer10 {
 			aux = temperaturas[i];
 			temperaturas[i] = temperaturas[posMin];
 			temperaturas[posMin] = aux;
-			
+
 			System.out.println(Arrays.toString(temperaturas));
 
 		}
-		
+
 		System.out.println("\nTemperaturas ordenadas:");
 		for (int i = 0; i < temperaturas.length; i++) {
 			System.out.print(temperaturas[i] + "ºC ");
 		}
-		
-		
-		System.out.println("\n\nTemperatura mínima: " 
-				+ temperaturas[0] + "ºC.");
-		System.out.println("Temperatura máxima: " 
-				+ temperaturas[temperaturas.length-1] + "ºC.");
+
+		System.out.println("\n\nTemperatura mínima: " + temperaturas[0] + "ºC.");
+		System.out.println("Temperatura máxima: " + temperaturas[temperaturas.length - 1] + "ºC.");
 
 	}
 
