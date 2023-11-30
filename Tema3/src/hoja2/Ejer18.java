@@ -52,13 +52,6 @@ public class Ejer18 {
 				+ "un " + notas [posMax][1] + ".");
 		
 		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
