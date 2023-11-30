@@ -1,6 +1,6 @@
 package hoja2;
 
-public class Ejer16 {
+public class Ejer17 {
 
 	public static void main(String[] args) {
 
@@ -28,6 +28,29 @@ public class Ejer16 {
 		}
 
 		System.out.println("La media es: " + media / notas.length);
+		
+		// Buscamos la nota más baja 
+		// (podríamos hacerlo dentro del for anterior).
+		
+		int posMin = 0;
+		for(int fila = 0; fila < notas.length; fila++) {
+			if(Integer.parseInt(notas[fila][1]) 
+					< Integer.parseInt(notas[posMin][1])) {
+				posMin = fila;
+			}
+		}
+		
+		System.out.println("\n" + notas[posMin][0] + " tiene la nota más baja, "
+				+ "un " + notas [posMin][1] + ".");
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
