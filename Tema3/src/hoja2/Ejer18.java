@@ -32,8 +32,7 @@ public class Ejer18 {
 		// Buscamos la nota más baja y la más alta.
 		// (podríamos hacerlo dentro del for anterior).
 		
-		int posMin = 0;
-		int posMax = 0;
+		int posMin = 0;		int posMax = 0;
 		for(int fila = 0; fila < notas.length; fila++) {
 			if(Integer.parseInt(notas[fila][1]) 
 					< Integer.parseInt(notas[posMin][1])) {
