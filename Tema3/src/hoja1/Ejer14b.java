@@ -1,14 +1,11 @@
 package hoja1;
 
-public class Ejer14 {
+public class Ejer14b {
 	public static void main(String[] args) {
-		/*
-		 * Escribe un programa que rellene un array llamado primos con los 100 primeros
-		 * números primos. Recuerda que un número entero es primo si no puede dividirse
-		 * por ninguno que no sea 1 o él mismo. Los primeros números primos son: 2, 3,
-		 * 5, 7, 11, 13, 17, 19, 23, 29, ...
-		 */
-
+		
+		// Modifica el ejercicio 14 para que, al comprobar si un número es
+		// primo, se divida sólo entre los primos que ya se han encontrado
+		// (y que ya están en el array).
 		
 		// Número candidato a primo
 		int num = 2;
