@@ -7,6 +7,9 @@ public class Ejer14b {
 		// primo, se divida sólo entre los primos que ya se han encontrado
 		// (y que ya están en el array).
 		
+		// Por ejemplo, para comprobar si 11 es primo, bastaría dividirlo 
+		// entre 2, 3, 5 y 7.		
+		
 		// Número candidato a primo
 		int num = 2;
 		boolean esPrrimo = true;
