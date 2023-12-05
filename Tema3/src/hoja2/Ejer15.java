@@ -4,10 +4,7 @@ public class Ejer15 {
 
 	public static void main(String[] args) {
 
-		String[][] precios = { 
-				{ "Tablet Samsung", "120" }, 
-				{ "Móvil Sony", "115" }, 
-				{ "Ipad Mini", "290" },
+		String[][] precios = { { "Tablet Samsung", "120" }, { "Móvil Sony", "115" }, { "Ipad Mini", "290" },
 				{ "Móvil HTC", "95" }, };
 
 		float precioTotal = 0;
@@ -35,23 +32,19 @@ public class Ejer15 {
 
 		for (int fila = 0; fila < precios.length; fila++) {
 
-			if (Float.parseFloat(precios[fila][1]) 
-					< Float.parseFloat(precios[posMin][1])) {
+			if (Float.parseFloat(precios[fila][1]) < Float.parseFloat(precios[posMin][1])) {
 				posMin = fila;
-			} else if (Float.parseFloat(precios[fila][1]) 
-					> Float.parseFloat(precios[posMax][1]) ){
+			} else if (Float.parseFloat(precios[fila][1]) > Float.parseFloat(precios[posMax][1])) {
 				posMax = fila;
 			}
 
 		}
-		
+
 		System.out.println("Artículo más barato: ");
-		System.out.println("  * " + precios[posMin][0] 
-				+ " (" + precios[posMin][1] + " €).");
-		
+		System.out.println("  * " + precios[posMin][0] + " (" + precios[posMin][1] + " €).");
+
 		System.out.println("Artículo más caro: ");
-		System.out.println("  * " + precios[posMax][0] 
-				+ " (" + precios[posMax][1] + " €).");
+		System.out.println("  * " + precios[posMax][0] + " (" + precios[posMax][1] + " €).");
 
 	}
 

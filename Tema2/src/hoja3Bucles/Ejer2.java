@@ -43,21 +43,21 @@ public class Ejer2 {
 		} else {
 			System.out.println("Fallaste, el número era " + randomNum);
 		}
-		
+
 		// Calculamos la puntuación del jugador.
 		int puntos;
-		if(intentos == 1) {
+		if (intentos == 1) {
 			puntos = 10;
-		}else if(intentos == 2) {
+		} else if (intentos == 2) {
 			puntos = 5;
-		}else if (intentos == 3) {
+		} else if (intentos == 3) {
 			puntos = 2;
-		}else {
+		} else {
 			puntos = 0;
 		}
 
-		System.out.println("Puntuación: " + puntos  + " puntos.");
-		
+		System.out.println("Puntuación: " + puntos + " puntos.");
+
 		escaner.close();
 	}
 }

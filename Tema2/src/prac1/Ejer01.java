@@ -23,8 +23,7 @@ public class Ejer01 {
 
 		System.out.println("El tiempo total es: " + suma + " segundos");
 
-		System.out.println("\nEl tiempo medio es: " + suma / NUM_TIEMPOS 
-				+ " segundos");
+		System.out.println("\nEl tiempo medio es: " + suma / NUM_TIEMPOS + " segundos");
 
 	}
 

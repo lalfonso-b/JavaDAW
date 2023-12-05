@@ -11,8 +11,7 @@ public class Ejer01 {
 		System.out.print("Escribe una palabra: ");
 		String palabra = entrada.nextLine();
 
-		System.out.println("La palabra " + palabra + " tiene " 
-				+ palabra.length() + " letras.");
+		System.out.println("La palabra " + palabra + " tiene " + palabra.length() + " letras.");
 
 	}
 

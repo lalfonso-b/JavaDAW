@@ -34,32 +34,28 @@ public class Ejer20 {
 			System.out.println();
 		}
 
-		// Calculamos el el gasto mensual de la empresa sumando los 
+		// Calculamos el el gasto mensual de la empresa sumando los
 		// sueldos.
 		for (int i = 0; i < nominas.length; i++) {
 
 			sueldoTotal += Double.parseDouble(nominas[i][2]);
 		}
 
-		System.out.println("\nEl gasto mensual en sueldos es: " 
-				+ sueldoTotal + "€.");
-		
+		System.out.println("\nEl gasto mensual en sueldos es: " + sueldoTotal + "€.");
+
 		// Buscamos al empleado con menor salario.
 		int posMin = 0;
 		for (int fila = 0; fila < nominas.length; fila++) {
-			
-			if(Double.parseDouble(nominas[fila][2]) 
-					< Double.parseDouble(nominas[posMin][2])) {
+
+			if (Double.parseDouble(nominas[fila][2]) < Double.parseDouble(nominas[posMin][2])) {
 				posMin = fila;
 			}
-			
+
 		}
-		
-		System.out.println(nominas[posMin][1] + " " + nominas[posMin][0] 
-				+ " es el que menos cobra, apenas " + nominas[posMin][2] 
-						+ " euros.");
-		
-		
+
+		System.out.println(nominas[posMin][1] + " " + nominas[posMin][0] + " es el que menos cobra, apenas "
+				+ nominas[posMin][2] + " euros.");
+
 	}
 
 }

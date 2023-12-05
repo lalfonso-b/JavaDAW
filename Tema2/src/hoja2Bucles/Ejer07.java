@@ -13,10 +13,10 @@ public class Ejer07 {
 		int num = 0;
 
 		while (numPares <= 50) {
-			
+
 			System.out.println(num);
 			num += 2;
-			
+
 			numPares++;
 
 		}

@@ -6,11 +6,7 @@ public class Ejemplo14 {
 
 	public static void main(String[] args) {
 
-		String[][] alturas = { 
-				{ "Manuel", "1.75" }, 
-				{ "Rosa", "1.70" }, 
-				{ "María", "1.65" }, 
-				{ "Jorge", "1.72" } };
+		String[][] alturas = { { "Manuel", "1.75" }, { "Rosa", "1.70" }, { "María", "1.65" }, { "Jorge", "1.72" } };
 
 		float suma = 0;
 
@@ -22,22 +18,20 @@ public class Ejemplo14 {
 
 		}
 
-		System.out.println("Altura media: " + suma / alturas.length 
-				+ " metros.");
-		
+		System.out.println("Altura media: " + suma / alturas.length + " metros.");
+
 		// Altura mínima.
 		int posMin = 0;
-		
-		for(int fila = 1; fila < alturas.length; fila++) {
-			if(Float.parseFloat(alturas [fila][1]) 
-					< Float.parseFloat(alturas[posMin][1])) {
+
+		for (int fila = 1; fila < alturas.length; fila++) {
+			if (Float.parseFloat(alturas[fila][1]) < Float.parseFloat(alturas[posMin][1])) {
 				posMin = fila;
 			}
 		}
-		
-		System.out.println("La altura mínima es " + alturas[posMin][1] 
-				+ " m, que corresponde a " + alturas[posMin][0] + ".");
-		
+
+		System.out.println(
+				"La altura mínima es " + alturas[posMin][1] + " m, que corresponde a " + alturas[posMin][0] + ".");
+
 	}
 
 }

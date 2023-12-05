@@ -11,7 +11,7 @@ public class Ejer11 {
 		String[] ordenes = new String[1000];
 
 		System.out.println("Órdenes que debe seguir el robot.");
-		
+
 		int i = 0;
 		while (i < ordenes.length) {
 			System.out.println("\nOrden:");
@@ -22,7 +22,7 @@ public class Ejer11 {
 			}
 			i++;
 		}
-		
+
 		i = 0;
 		System.out.println("Las órdenes son: ");
 		while (i < ordenes.length) {

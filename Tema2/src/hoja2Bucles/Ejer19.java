@@ -15,7 +15,7 @@ public class Ejer19 {
 
 			System.out.println("Dime el precio de 4 productos");
 			precio = entrada.nextDouble();
-			
+
 			precioTotal = precioTotal + precio;
 
 		}

@@ -13,7 +13,7 @@ public class Ejer15 {
 			System.out.println("3 ^ " + exp + " = " + potencia);
 			exp++;
 			potencia = potencia * 3;
-		}while(potencia < 12000);
+		} while (potencia < 12000);
 	}
 
 }

@@ -11,8 +11,7 @@ public class Ejer02 {
 		System.out.println("Dime un carácter: ");
 		String caracter = entrada.nextLine();
 
-		System.out.println("Dime el número de veces que quieres "
-				+ "que lo escriba: ");
+		System.out.println("Dime el número de veces que quieres " + "que lo escriba: ");
 		int num = entrada.nextInt();
 
 		int contador = 1;
@@ -24,8 +23,6 @@ public class Ejer02 {
 			contador++;
 
 		}
-		
-		
 
 	}
 

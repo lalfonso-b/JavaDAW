@@ -25,13 +25,13 @@ public class Ejer14 {
 			System.out.println("4)Ray Bradbury");
 			respuesta = entrada.nextInt();
 		} while (respuesta < 1 || respuesta > 4);
-		
+
 		if (respuesta == 3) {
 			System.out.println("¡Has acertado!");
 		} else {
 			System.out.println("¡Has fallado!");
 		}
-		
+
 		entrada.close();
 	}
 

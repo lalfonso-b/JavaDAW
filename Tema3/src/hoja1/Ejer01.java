@@ -4,8 +4,7 @@ public class Ejer01 {
 
 	public static void main(String[] args) {
 
-		String[] estaciones = { "Invierno", "Primavera", "Verano", 
-				"Otoño" };
+		String[] estaciones = { "Invierno", "Primavera", "Verano", "Otoño" };
 
 		System.out.println("Las cuatro estaciones: ");
 

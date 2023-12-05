@@ -35,31 +35,29 @@ public class Ejemplo13 {
 		divisor = entrada.nextInt();
 
 		if (dividendo < divisor) {
-			System.out.println("El dividendo debe ser mayor o igual " 
-					+ "al divisor.");
+			System.out.println("El dividendo debe ser mayor o igual " + "al divisor.");
 
 		} else {
-			
+
 			// Variable semáforo.
 			boolean continuarDividiendo = true;
-			
+
 			while (continuarDividiendo) {
 
 				resultado = dividendo - divisor;
 
-				System.out.println(dividendo + " - " + divisor + " = " 
-						+ resultado);
+				System.out.println(dividendo + " - " + divisor + " = " + resultado);
 
 				dividendo = resultado;
-				
-				if(resultado < divisor) {
+
+				if (resultado < divisor) {
 					continuarDividiendo = false;
 				}
 
 			}
 
 			System.out.println("Resto: " + resultado);
-			
+
 		}
 
 	}

@@ -15,14 +15,14 @@ public class Ejer09b {
 			System.out.println("Crea un tipo test.");
 			test[i] = entrada.nextLine();
 		}
-		
+
 		char letra = 'a';
 		System.out.println(test[0]);
 		for (int i = 1; i < test.length; i++) {
 			System.out.println(letra + ") " + test[i]);
 			letra++;
 		}
-		
+
 		entrada.close();
 	}
 

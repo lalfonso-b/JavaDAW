@@ -12,8 +12,8 @@ public class Ejer15b {
 		do {
 			System.out.println("3 ^ " + exp + " = " + potencia);
 			exp++;
-			potencia =  (int)Math.pow(3, exp);
-			
+			potencia = (int) Math.pow(3, exp);
+
 		} while (potencia < 12000);
 	}
 

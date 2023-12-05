@@ -13,7 +13,7 @@ public class Ejer09 {
 		int aux = 0;
 
 		System.out.println(Arrays.toString(precios));
-		
+
 		for (int i = 0; i < precios.length - 1; i++) {
 
 			posMin = i;
@@ -23,7 +23,7 @@ public class Ejer09 {
 					posMin = j;
 				}
 			}
-			
+
 			// ahora, posMin apunta a la posicion del elemento mas pequeño del array
 			// System.out.println(posMin + " = posMin");
 
@@ -35,8 +35,6 @@ public class Ejer09 {
 
 			System.out.println(Arrays.toString(precios));
 		}
-		
-		
 
 	}
 

@@ -14,12 +14,9 @@ public class Ejer10 {
 
 		System.out.println("\nInserte precio del producto:");
 
-		
-
 		for (int i = 0; i < compra.length; i++) {
 
-			
-			System.out.println("Articulo " + (i+1));
+			System.out.println("Articulo " + (i + 1));
 
 			compra[i] = sc.nextDouble();
 

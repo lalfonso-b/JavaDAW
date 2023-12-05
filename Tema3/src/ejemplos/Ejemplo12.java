@@ -11,12 +11,7 @@ public class Ejemplo12 {
 		// La tabla se llamará datos ( al menos 4 filas).
 		// Múestrala en forma de tabla.
 
-		double[][] datos = {
-				{ 12, 1.50 },
-				{ 15, 1.75 },
-				{ 21, 1.69 },
-				{ 32, 1.90 } 
-			};
+		double[][] datos = { { 12, 1.50 }, { 15, 1.75 }, { 21, 1.69 }, { 32, 1.90 } };
 
 		System.out.println("Edad\tAltura\n");
 

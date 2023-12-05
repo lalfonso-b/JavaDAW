@@ -29,11 +29,10 @@ public class Ejemplo15 {
 			aux = sueldos[posMin];
 			sueldos[posMin] = sueldos[i];
 			sueldos[i] = aux;
-			
+
 			// Mostramos cómo va quedando la tabla.
 			for (int fila = 0; fila < sueldos.length; fila++) {
-				System.out.println(sueldos[fila][0] + "\t" 
-			        + sueldos[fila][1]);
+				System.out.println(sueldos[fila][0] + "\t" + sueldos[fila][1]);
 			}
 			System.out.println();
 

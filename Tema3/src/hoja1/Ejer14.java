@@ -9,13 +9,12 @@ public class Ejer14 {
 		 * 5, 7, 11, 13, 17, 19, 23, 29, ...
 		 */
 
-		
 		// Número candidato a primo
 		int num = 2;
 		boolean esPrrimo = true;
 		int[] numeros = new int[100];
 		int posicion = 0;
-		
+
 		// Entramos en bucle infinito porque no sabemos el numero primo que ocupa pos.
 		// 100
 		while (true) {
@@ -33,13 +32,13 @@ public class Ejer14 {
 					esPrrimo = false;
 				}
 			}
-			
+
 			// Si el número es primo, lo añadimos al array
 			if (esPrrimo) {
 				numeros[posicion] = num;
 				posicion++;
 			}
-			
+
 			if (posicion == 100) {
 				break;
 			}
@@ -48,7 +47,7 @@ public class Ejer14 {
 			num++;
 
 		}
-		
+
 		// Mostramos la posición y el número primo que contiene
 		System.out.println("\nLos 100 primeros números primos son: ");
 		for (int k = 0; k < numeros.length; k++) {

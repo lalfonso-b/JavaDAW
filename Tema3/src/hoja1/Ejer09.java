@@ -16,11 +16,11 @@ public class Ejer09 {
 			System.out.println("Crea un tipo test.");
 			test[i] = entrada.nextLine();
 		}
-		
+
 		for (int i = 0; i < test.length; i++) {
 			System.out.println(letra[i] + test[i]);
 		}
-		
+
 		entrada.close();
 	}
 

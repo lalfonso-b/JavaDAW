@@ -19,14 +19,12 @@ public class Ejer09 {
 		divisor = entrada.nextInt();
 
 		if (dividendo < divisor) {
-			System.out.println("El dividendo debe ser mayor o igual " 
-					+ "al divisor.");
-			
+			System.out.println("El dividendo debe ser mayor o igual " + "al divisor.");
+
 		} else {
 			resultado = dividendo - divisor;
 
-			System.out.println(dividendo + " - " + divisor + " = " 
-					+ resultado);
+			System.out.println(dividendo + " - " + divisor + " = " + resultado);
 
 			dividendo = resultado;
 
@@ -34,8 +32,7 @@ public class Ejer09 {
 
 				resultado = dividendo - divisor;
 
-				System.out.println(dividendo + " - " + divisor 
-						+ " = " + resultado);
+				System.out.println(dividendo + " - " + divisor + " = " + resultado);
 
 				dividendo = resultado;
 

@@ -17,15 +17,14 @@ public class Ejer06 {
 
 		for (int i = 0; i < 10; i++) {
 
-			System.out.println("Ingresa el precio del producto " + (i+1) + ": ");
+			System.out.println("Ingresa el precio del producto " + (i + 1) + ": ");
 			precios[i] = escaner.nextDouble();
 
 		}
-		
+
 		System.out.println("La lista de precios es la siguiente: ");
 		for (int j = 0; j < precios.length; j++) {
-			System.out.println("Precio art." + (j+1) + " = " + precios[j] 
-					+ "$");
+			System.out.println("Precio art." + (j + 1) + " = " + precios[j] + "$");
 		}
 
 		escaner.close();

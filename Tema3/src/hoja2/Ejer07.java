@@ -24,7 +24,7 @@ public class Ejer07 {
 			}
 
 		}
-		
+
 		// Informamos de los resultados.
 
 		System.out.println("Resultados de audiencia de la semana en La 2, a las 23:00 horas:");

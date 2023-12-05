@@ -29,8 +29,7 @@ public class Ejemplo06 {
 		}
 
 		if (encontrado) {
-			System.out.println("Tu talla se encuentra en la posición " 
-					+ i + ".");
+			System.out.println("Tu talla se encuentra en la posición " + i + ".");
 		} else {
 			System.out.println("Tu talla no se ha encontrado.");
 		}

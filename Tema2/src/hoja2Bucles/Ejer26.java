@@ -40,7 +40,7 @@ public class Ejer26 {
 			}
 
 		}
-		
+
 		escaner.close();
 	}
 }

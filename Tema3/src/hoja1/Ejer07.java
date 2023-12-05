@@ -22,9 +22,8 @@ public class Ejer07 {
 
 		}
 
-		
 		cont = 0;
-		
+
 		System.out.println("\nNotas registradas:");
 		while (cont < notas.length) {
 

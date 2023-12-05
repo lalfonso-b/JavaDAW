@@ -21,8 +21,7 @@ public class Ejer03 {
 
 		for (int i = 0; i < densidades.length; i++) {
 
-			System.out.println("La densidad de " + planetas[i] 
-					+ " es: " + densidades[i] + " g/cm3");
+			System.out.println("La densidad de " + planetas[i] + " es: " + densidades[i] + " g/cm3");
 		}
 	}
 

@@ -8,7 +8,6 @@ public class Ejer21 {
 
 		Scanner sc = new Scanner(System.in);
 
-		
 		int entero = 0;
 		for (int i = 1; i <= 5; i++) {
 

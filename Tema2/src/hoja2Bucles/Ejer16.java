@@ -26,7 +26,7 @@ public class Ejer16 {
 
 		if (num == random) {
 			System.out.println("¡Correcto!");
-		}else {
+		} else {
 			System.out.println("Has fallado, el número era " + random);
 		}
 

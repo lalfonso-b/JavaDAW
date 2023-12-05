@@ -18,11 +18,9 @@ public class Ejer02 {
 		int longitud = contraseña.length();
 
 		if (longitud >= 6 && longitud <= 12) {
-			System.out.println("La contraseña es correcta, tiene " 
-					+ longitud + " carácteres.");
+			System.out.println("La contraseña es correcta, tiene " + longitud + " carácteres.");
 		} else {
-			System.out.println("Tu contraseña es incorrecta, tiene " 
-					+ longitud + " carácteres."
+			System.out.println("Tu contraseña es incorrecta, tiene " + longitud + " carácteres."
 					+ "\nLa contraseña tiene que tener entre 6 y 12 carácteres.");
 		}
 

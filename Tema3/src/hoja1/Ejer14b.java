@@ -2,20 +2,20 @@ package hoja1;
 
 public class Ejer14b {
 	public static void main(String[] args) {
-		
+
 		// Modifica el ejercicio 14 para que, al comprobar si un número es
 		// primo, se divida sólo entre los primos que ya se han encontrado
 		// (y que ya están en el array).
-		
-		// Por ejemplo, para comprobar si 11 es primo, bastaría dividirlo 
-		// entre 2, 3, 5 y 7.		
-		
+
+		// Por ejemplo, para comprobar si 11 es primo, bastaría dividirlo
+		// entre 2, 3, 5 y 7.
+
 		// Número candidato a primo
 		int num = 2;
 		boolean esPrrimo = true;
 		int[] numeros = new int[100];
 		int posicion = 0;
-		
+
 		// Entramos en bucle infinito porque no sabemos el numero primo que ocupa pos.
 		// 100
 		while (true) {
@@ -33,13 +33,13 @@ public class Ejer14b {
 					esPrrimo = false;
 				}
 			}
-			
+
 			// Si el número es primo, lo añadimos al array
 			if (esPrrimo) {
 				numeros[posicion] = num;
 				posicion++;
 			}
-			
+
 			if (posicion == 100) {
 				break;
 			}
@@ -48,7 +48,7 @@ public class Ejer14b {
 			num++;
 
 		}
-		
+
 		// Mostramos la posición y el número primo que contiene
 		System.out.println("\nLos 100 primeros números primos son: ");
 		for (int k = 0; k < numeros.length; k++) {

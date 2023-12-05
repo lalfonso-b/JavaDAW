@@ -8,14 +8,13 @@ public class Ejer02 {
 		// nombres de los doce meses del año. Haz que después se muestren
 		// todos los valores mediante un bucle while.
 
-		String[] meses = { "Enero", "Febrero", "Marzo", "Abril", "Mayo", 
-				"Junio", "Julio", "Agosto", "Septiembre",
+		String[] meses = { "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre",
 				"Octubre", "Noviembre", "Diciembre" };
-		
+
 		int i = 0;
 		while (i < meses.length) {
 
-			System.out.println((i+1) + " " + meses[i]);
+			System.out.println((i + 1) + " " + meses[i]);
 			i++;
 		}
 

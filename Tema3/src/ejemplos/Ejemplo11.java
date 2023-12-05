@@ -48,8 +48,7 @@ public class Ejemplo11 {
 		for (int fila = 0; fila < medidas.length; fila++) {
 
 			// Mostramos la fila indicada por la variable fila.
-			System.out.println(medidas[fila][0] + "\t" + medidas[fila][1] 
-					+ "\t" + medidas[fila][2]);
+			System.out.println(medidas[fila][0] + "\t" + medidas[fila][1] + "\t" + medidas[fila][2]);
 
 		}
 	}

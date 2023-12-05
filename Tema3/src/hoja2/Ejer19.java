@@ -34,15 +34,14 @@ public class Ejer19 {
 			System.out.println();
 		}
 
-		// Calculamos el el gasto mensual de la empresa sumando los 
+		// Calculamos el el gasto mensual de la empresa sumando los
 		// sueldos.
 		for (int i = 0; i < nominas.length; i++) {
 
 			sueldoTotal += Double.parseDouble(nominas[i][2]);
 		}
 
-		System.out.println("\nEl gasto mensual en sueldos es: " 
-				+ sueldoTotal + "€.");
+		System.out.println("\nEl gasto mensual en sueldos es: " + sueldoTotal + "€.");
 
 	}
 
