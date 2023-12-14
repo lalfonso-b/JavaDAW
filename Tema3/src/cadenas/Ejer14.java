@@ -1,4 +1,4 @@
-package cadenasEjemplos;
+package cadenas;
 
 import java.util.Arrays;
 
