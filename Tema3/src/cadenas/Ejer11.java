@@ -18,7 +18,7 @@ public class Ejer11 {
 		// el fin será el espacio encontrado
 		int fin = frase.indexOf(" ");
 
-		//mientras se encuentre un espacio
+		// mientras se encuentre un espacio
 
 		while (fin != -1) {
 
@@ -27,7 +27,7 @@ public class Ejer11 {
 			// hacemos que el inicio sea la siguiente posicion al espacio
 			inicio = fin + 1;
 
-			// buscamos el siguiente espacio, a partir de la posicion 
+			// buscamos el siguiente espacio, a partir de la posicion
 			// siguiente del anterior espacio
 			fin = frase.indexOf(' ', inicio);
 
