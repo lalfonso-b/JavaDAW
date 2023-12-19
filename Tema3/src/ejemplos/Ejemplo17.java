@@ -12,7 +12,7 @@ public class Ejemplo17 {
 				{ "Alberto López", "7" } 
 			};
 
-		System.out.printf("\n%-20s %4s\n", "Nombre", "Nota");
+		System.out.printf("%-20s %4s\n", "Nombre", "Nota");
 		System.out.printf("%-20s %4s\n", "====================", "====");
 		for (int fila = 0; fila < notas.length; fila++) {
 			
