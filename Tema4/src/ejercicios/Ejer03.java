@@ -6,7 +6,7 @@ public class Ejer03 {
 
 	public static void main(String[] args) {
 
-		System.out.println("Te llamas " + preguntarNombre());
+		System.out.println("Te llamas " + preguntarNombre() + ".");
 
 	}
 
