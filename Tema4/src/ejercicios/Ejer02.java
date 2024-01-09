@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class Ejer01 {
+public class Ejer02 {
 
 	public static void main(String[] args) {
 
@@ -14,13 +14,13 @@ public class Ejer01 {
 		System.out.println("¿Cuántos años tienes?");
 		int edad = entrada.nextInt();
 
-		saludar(nombre, edad);
+		System.out.println(saludar(nombre, edad));
 
 	}
 
-	static void saludar(String nombre, int edad) {
+	static String saludar(String nombre, int edad) {
 	
-		System.out.println("Hola, " + nombre + ", no parece que tengas " + edad + " años.");
+		return "Hola, " + nombre + ", no parece que tengas " + edad + " años.";
 	
 	}
 
