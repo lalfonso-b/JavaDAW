@@ -6,8 +6,8 @@ public class Ejer05b {
 	public static void main(String[] args) {
 
 		/*
-		 * Programa que lee una frase y nos dice por cuántas palabras 
-		 * está formada. Y que no cuente mas de un espacio junto.
+		 * Programa que lee una frase y nos dice por cuántas palabras está formada. Y
+		 * que no cuente mas de un espacio junto.
 		 */
 		Scanner escaner = new Scanner(System.in);
 
@@ -18,16 +18,15 @@ public class Ejer05b {
 		frase = escaner.nextLine();
 
 		frase = frase.trim();
-		
-		if(frase.equals("")) {
+
+		if (frase.equals("")) {
 			System.out.println("La frase está vacía.");
 			System.exit(0);
 		}
 
 		for (int i = 0; i < frase.length(); i++) {
 
-			if ((frase.charAt(i) == ' ') 
-					&& (frase.charAt(i + 1) != ' ')) {
+			if ((frase.charAt(i) == ' ') && (frase.charAt(i + 1) != ' ')) {
 				numPalabras++;
 			}
 		}

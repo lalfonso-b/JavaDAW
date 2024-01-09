@@ -8,15 +8,15 @@ public class Ejer13 {
 
 		Scanner entrada = new Scanner(System.in);
 		String[] mascotas = new String[5];
-		
+
 		// Leemos los nombres de las mascotas.
-		
+
 		System.out.println("Escribe cinco mascotas:");
 		for (int i = 0; i < mascotas.length; i++) {
-			System.out.println("Mascota " + (i+1) + ": ");
+			System.out.println("Mascota " + (i + 1) + ": ");
 			mascotas[i] = entrada.nextLine();
 		}
-		
+
 		// Buscamos el mínimo del array.
 
 		int posMin = 0;
@@ -28,8 +28,7 @@ public class Ejer13 {
 
 		}
 
-		System.out.println("La primera palabra, alfabéticamente, es " 
-				+ mascotas[posMin] + ".");
+		System.out.println("La primera palabra, alfabéticamente, es " + mascotas[posMin] + ".");
 
 	}
 

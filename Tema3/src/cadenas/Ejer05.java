@@ -17,7 +17,7 @@ public class Ejer05 {
 		frase = escaner.nextLine();
 
 		frase = frase.trim();
-		
+
 		for (int i = 0; i < frase.length(); i++) {
 			if (frase.charAt(i) == ' ') {
 				contador++;
@@ -26,6 +26,6 @@ public class Ejer05 {
 
 		System.out.println("La frase consta de: " + contador + " palabras.");
 		escaner.close();
-		
+
 	}
 }

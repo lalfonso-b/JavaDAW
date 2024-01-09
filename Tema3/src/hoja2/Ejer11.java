@@ -35,15 +35,13 @@ public class Ejer11 {
 			aux = edades[i];
 			edades[i] = edades[posMin];
 			edades[posMin] = aux;
-			
+
 			System.out.println(Arrays.toString(edades));
 
 		}
-		
-		System.out.println("\nLa edad mas alta ha sido: " + edades[edades.length -1]
-				+ " años");
-		System.out.println("\nLa edad mas baja ha sido: " + edades[0] 
-				+ " años");
+
+		System.out.println("\nLa edad mas alta ha sido: " + edades[edades.length - 1] + " años");
+		System.out.println("\nLa edad mas baja ha sido: " + edades[0] + " años");
 
 	}
 

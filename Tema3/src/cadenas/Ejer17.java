@@ -16,8 +16,7 @@ public class Ejer17 {
 
 		String[] palabras = frase.split(" ");
 
-		System.out.println("Frase descompuesta por palabras sueltas menos" 
-				+ " la útima: ");
+		System.out.println("Frase descompuesta por palabras sueltas menos" + " la útima: ");
 
 		for (int i = 0; i < palabras.length - 1; i++) {
 

@@ -18,7 +18,7 @@ public class Ejemplo08 {
 		System.out.println("Teléfono: " + datosSeparados[4]);
 
 		// Otro ejemplo: separar las palabras de una frase.
-		
+
 		String frase = "Bien hecho es mejor que bien dicho";
 		String[] palabras = frase.split(" ");
 

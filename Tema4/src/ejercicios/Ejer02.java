@@ -19,9 +19,9 @@ public class Ejer02 {
 	}
 
 	static String saludar(String nombre, int edad) {
-	
+
 		return "Hola, " + nombre + ", no parece que tengas " + edad + " años.";
-	
+
 	}
 
 }

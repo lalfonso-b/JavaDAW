@@ -35,8 +35,7 @@ public class Ejer17 {
 		}
 
 		System.out.println("Precio total a pagar: " + suma + " euros.");
-		System.out.println("Hay " + mayoresDiez 
-				+ " productos de más de 10 euros.");
+		System.out.println("Hay " + mayoresDiez + " productos de más de 10 euros.");
 		System.out.println("\nHa abandonado la aplicacion.");
 
 		sc.close();

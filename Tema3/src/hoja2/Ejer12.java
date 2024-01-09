@@ -29,12 +29,11 @@ public class Ejer12 {
 			System.out.println(numAtom[i]);
 
 		}
-		
-		// Mostramos la última posición.
-		System.out.println(numAtom[numAtom.length-1]);
 
-		System.out.println("\nNúmero atómico mayor: " 
-				+ numAtom[numAtom.length - 1]);
+		// Mostramos la última posición.
+		System.out.println(numAtom[numAtom.length - 1]);
+
+		System.out.println("\nNúmero atómico mayor: " + numAtom[numAtom.length - 1]);
 		System.out.println("Número atómico menor: " + numAtom[0]);
 
 	}
