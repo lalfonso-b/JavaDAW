@@ -9,11 +9,12 @@ public class Ejer13 {
 
 		System.out.println("Array antes de ordenar: \n" + Arrays.toString(edades));
 
-		ordenarArray(edades);
-
+		int[] edadesOrdenadas = ordenarArray(edades);
+		System.out.println("Array después de ordenar: \n" + Arrays.toString(edadesOrdenadas));
+		
 	}
 
-	static void ordenarArray(int[] arrayEdades) {
+	static int[] ordenarArray(int[] arrayEdades) {
 
 		int posMin = 0;
 		int aux = 0;
@@ -31,8 +32,8 @@ public class Ejer13 {
 			arrayEdades[i] = arrayEdades[posMin];
 			arrayEdades[posMin] = aux;
 		}
-		
-		
+
+		return arrayEdades;
 
 	}
 }
