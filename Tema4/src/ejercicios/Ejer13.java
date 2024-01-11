@@ -2,12 +2,8 @@ package ejercicios;
 
 import java.util.Arrays;
 
-public class Ejer12 {
+public class Ejer13 {
 	public static void main(String[] args) {
-		/*
-		 * Desarrolla un método que tome un array de números enteros y lo muestre
-		 * ordenado.
-		 */
 
 		int[] edades = { 2, 5, 2, 7, 4, 3 };
 
@@ -35,7 +31,8 @@ public class Ejer12 {
 			arrayEdades[i] = arrayEdades[posMin];
 			arrayEdades[posMin] = aux;
 		}
+		
+		
 
-		System.out.println("Después de ordenar: " + Arrays.toString(arrayEdades));
 	}
 }
