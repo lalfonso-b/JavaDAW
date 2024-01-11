@@ -18,9 +18,11 @@ public class Ejemplo10 {
 		// han hecho en los métodos.
 		System.out.println("El valor de edad es " + edad + ".");
 		System.out.println("El valor del array es:\n" + Arrays.toString(nombres));
-		
-		// La variable edad no ha cambiado porque es un tipo primitivo y se ha pasado por valor.
-		// La variable nombres sí ha cambiado porque es un objeto (array) y se ha pasado por referencia.
+
+		// La variable edad no ha cambiado porque es un tipo primitivo y se ha pasado
+		// por valor.
+		// La variable nombres sí ha cambiado porque es un objeto (array) y se ha pasado
+		// por referencia.
 
 	}
 

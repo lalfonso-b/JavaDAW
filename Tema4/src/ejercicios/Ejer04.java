@@ -1,16 +1,16 @@
 package ejercicios;
 
 public class Ejer04 {
-    public static void main(String[] args) {
-        
-        /*
-         * Crea un método que tome un número decimal y devuelva su cuadrado.
-         */
-        System.out.println("El cuadrado de 2 es: " + cuadrado(2));
-    }
+	public static void main(String[] args) {
 
-    static double cuadrado (double num) {
+		/*
+		 * Crea un método que tome un número decimal y devuelva su cuadrado.
+		 */
+		System.out.println("El cuadrado de 2 es: " + cuadrado(2));
+	}
 
-        return num * num;
-    }
+	static double cuadrado(double num) {
+
+		return num * num;
+	}
 }

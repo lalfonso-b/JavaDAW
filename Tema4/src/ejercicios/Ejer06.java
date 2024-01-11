@@ -16,7 +16,7 @@ public class Ejer06 {
 	}
 
 	static double fahrenheit(double temperatura) {
-		
+
 		return temperatura * 9 / 5 + 32;
 
 	}

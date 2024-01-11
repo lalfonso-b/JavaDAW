@@ -14,7 +14,7 @@ public class Ejer05 {
 	}
 
 	static int cubo(int numero) {
-		
+
 		return numero * numero * numero;
 	}
 }
