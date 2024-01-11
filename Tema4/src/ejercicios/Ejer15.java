@@ -9,17 +9,17 @@ import java.util.Scanner;
 */
 
 public class Ejer15 {
-	
+
 	public static void main(String[] args) {
 
 		int[] numeros = new int[5];
 
 		preguntar(numeros);
 		ordenar(numeros);
-		
+
 		System.out.println("Tus números, ordenados:");
 		mostrar(numeros);
-		
+
 	}
 
 	static void preguntar(int[] numeros) {
@@ -50,12 +50,12 @@ public class Ejer15 {
 			numeros[i] = numeros[posMin];
 			numeros[posMin] = aux;
 		}
-		
+
 	}
 
 	static void mostrar(int[] numeros) {
 
 		System.out.println("\n" + Arrays.toString(numeros));
-		
+
 	}
 }

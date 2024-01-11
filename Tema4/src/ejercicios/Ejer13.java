@@ -11,7 +11,7 @@ public class Ejer13 {
 
 		int[] edadesOrdenadas = ordenarArray(edades);
 		System.out.println("Array después de ordenar: \n" + Arrays.toString(edadesOrdenadas));
-		
+
 	}
 
 	static int[] ordenarArray(int[] arrayEdades) {
