@@ -10,9 +10,18 @@ public class Persona {
 
 	// Métodos.
 	void mostrar() {
-		System.out.println("Nombre completo: " + apellidos + " " + nombre + ".");
+		System.out.println("\nNombre completo: " + apellidos + ", " + nombre + ".");
 		System.out.println("DNI: " + dni + ".");
 		System.out.println("Fecha de nacimiento: " + fechaNacimiento + ".");
+	}
+
+	// tieneDni() devuelve true si la persona tiene dni y false si no lo tiene.
+	// O sea, si dni es distinto de null, o no.
+	boolean tieneDni() {
+		if (dni != null) {
+			return true;
+		}
+		return false;
 	}
 
 }
