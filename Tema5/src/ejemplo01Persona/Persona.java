@@ -1,4 +1,4 @@
-package ejemplo01;
+package ejemplo01Persona;
 
 public class Persona {
 
@@ -22,6 +22,15 @@ public class Persona {
 			return true;
 		}
 		return false;
+	}
+
+	// anyoNacimiento() devuelve el año de nacimiento (suponiendo que la fecha está
+	// en formato dd/mm/aaaa).
+	String anyoNacimiento() {
+		if (fechaNacimiento == null) {
+			return null;
+		}
+		return fechaNacimiento.substring(6);
 	}
 
 }

@@ -1,4 +1,4 @@
-package ejemplo01;
+package ejemplo01Persona;
 
 public class Main {
 
@@ -34,42 +34,30 @@ public class Main {
 		// es un objeto, valdrá null, si es un número, valdrá 0 y si es un boolean,
 		// valdrá false.
 		System.out.println("María nació el " + persona2.fechaNacimiento + ".");
-		
+
 		// Podemos llamar al método mostrar() de Persona.
 		persona1.mostrar();
 		persona2.mostrar();
-		
+
 		// Probamos el método tieneDni().
-		if(persona1.tieneDni()) {
+		if (persona1.tieneDni()) {
 			System.out.println(persona1.nombre + " tiene DNI");
-		}else {
+		} else {
 			System.out.println(persona1.nombre + " no tiene DNI");
 		}
-		
-		if(persona2.tieneDni()) {
+
+		if (persona2.tieneDni()) {
 			System.out.println(persona2.nombre + " tiene DNI");
-		}else {
+		} else {
 			System.out.println(persona2.nombre + " no tiene DNI");
 		}
- 
+
+		// Probamos el método anyoNacimiento().
+		if (persona2.anyoNacimiento() == null) {
+			System.out.println(persona2.nombre + " no tiene fecha de nacimiento.");
+		} else {
+			System.out.println(persona2.nombre + " nació el año " + persona2.anyoNacimiento() + ".");
+		}
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
