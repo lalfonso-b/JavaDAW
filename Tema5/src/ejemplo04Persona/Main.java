@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Declaramos la variable persona1, de tipo Persona, y le asignamos un objeto de
-		// tipo Persona.
+		// tipo Persona. Usamos el constructor y así evitamos asignar valor a cada atributo por separado.
 		Persona persona1 = new Persona("Sánchez","Mario","22100100T", "10/10/1980");
 
 		// Queremos mostrar algunos datos de persona1.
