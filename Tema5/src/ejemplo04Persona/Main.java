@@ -26,18 +26,23 @@ public class Main {
 		// null.
 		System.out.println("María nació el " + persona2.fechaNacimiento + ".");
 
-		// Creamos otras dos personas.
+		// Creamos otras tres personas.
 		Persona persona3 = new Persona("Lozano Peris", "Ana María", "10100100Y", "10/10/1990");
 		Persona persona4 = new Persona("Mas Calatayud", "Pedro");
+		Persona persona5 = new Persona("40123123G");
 
 		persona3.mostrar();
 		persona4.mostrar();
+		persona5.mostrar();
+
+		// Para que la siguiente instrucción funcione, es necesario haber escrito el
+		// constructor implícito, ya que éste desaparece en el momento que creamos a
+		// mano un constructor explícito.
+		Persona persona6 = new Persona();
 
 	}
 
 }
-
-
 
 
 

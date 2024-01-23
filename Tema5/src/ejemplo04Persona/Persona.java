@@ -26,16 +26,24 @@ public class Persona {
 		this.fechaNacimiento = fechaNacimiento;
 
 	}
-	
+
 	// Constructor explícito. Le pasamos los apellidos y el nombre de la persona,
 	// y dejamos los otros datos con valores por defecto.
 	Persona(String apellidos, String nombre) {
-		
+
 		this.apellidos = apellidos;
 		this.nombre = nombre;
 		// Damos un valor por defecto al atributo dni.
 		this.dni = "Sin DNI";
 		// Dejamos el atributo fechaNacimiento con el valor por defecto, null.
+
+	}
+
+	// Constructor explícito. Le pasamos el dni y dejamos el resto de atributos con
+	// valor null.
+	Persona(String dni){
+		
+		this.dni = dni;
 		
 	}
 	
