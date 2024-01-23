@@ -31,22 +31,21 @@ public class Persona {
 	// y dejamos los otros datos con valores por defecto.
 	Persona(String apellidos, String nombre) {
 
-		this.apellidos = apellidos;
-		this.nombre = nombre;
-		// Damos un valor por defecto al atributo dni.
-		this.dni = "Sin DNI";
-		// Dejamos el atributo fechaNacimiento con el valor por defecto, null.
+		// Podemos llamar al constructor anterior usando la palabra clave "this".
+		this(apellidos, nombre, "Sin DNI", null);
 
 	}
 
 	// Constructor explícito. Le pasamos el dni y dejamos el resto de atributos con
 	// valor null.
-	Persona(String dni){
-		
+	Persona(String dni) {
+
 		this.dni = dni;
-		
+
+		// Lo mismo podría hacerse con "this(null, null, dni, null)";
+
 	}
-	
+
 	// Muestra en la terminal todos los valores de los atributos.
 	void mostrar() {
 		System.out.println("\nNombre completo: " + apellidos + ", " + nombre + ".");

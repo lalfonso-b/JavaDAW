@@ -26,9 +26,7 @@ public class Coche {
 	// de valores sin modificar.
 	Coche(String matricula, String marca, String modelo) {
 
-		this.matricula = matricula;
-		this.marca = marca;
-		this.modelo = modelo;
+		this(matricula, marca, modelo, null, 0);
 
 	}
 
