@@ -25,9 +25,32 @@ public class Main {
 		// Al crear persona2 no le dimos un valor a fechaNacimiento, por lo que será
 		// null.
 		System.out.println("María nació el " + persona2.fechaNacimiento + ".");
-		
-		
+
+		// Creamos otras dos personas.
+		Persona persona3 = new Persona("Lozano Peris", "Ana María", "10100100Y", "10/10/1990");
+		Persona persona4 = new Persona("Mas Calatayud", "Pedro");
+
+		persona3.mostrar();
+		persona4.mostrar();
 
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
