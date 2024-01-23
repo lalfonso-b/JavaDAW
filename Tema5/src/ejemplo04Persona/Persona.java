@@ -26,6 +26,18 @@ public class Persona {
 		this.fechaNacimiento = fechaNacimiento;
 
 	}
+	
+	Persona(String apellidos, String nombre) {
+		
+		this.apellidos = apellidos;
+		this.nombre = nombre;
+		// Damos un valor por defecto al atributo dni.
+		this.dni = "Sin DNI";
+		// Dejamos el atributo fechaNacimiento con el valor por defecto, null.
+		
+	}
+	
+	
 
 	// Muestra en la terminal todos los valores de los atributos.
 	void mostrar() {
