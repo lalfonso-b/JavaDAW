@@ -27,6 +27,8 @@ public class Persona {
 
 	}
 	
+	// Constructor explícito. Le pasamos los apellidos y el nombre de la persona,
+	// y dejamos los otros datos con valores por defecto.
 	Persona(String apellidos, String nombre) {
 		
 		this.apellidos = apellidos;
@@ -37,8 +39,6 @@ public class Persona {
 		
 	}
 	
-	
-
 	// Muestra en la terminal todos los valores de los atributos.
 	void mostrar() {
 		System.out.println("\nNombre completo: " + apellidos + ", " + nombre + ".");
@@ -47,12 +47,11 @@ public class Persona {
 	}
 
 	// tieneDni() devuelve true si la persona tiene dni y false si no lo tiene.
-	// O sea, si dni es distinto de null, o no.
 	boolean tieneDni() {
-		if (dni != null) {
-			return true;
+		if (dni == null || dni.equals("Sin DNI")) {
+			return false;
 		}
-		return false;
+		return true;
 	}
 
 	// anyoNacimiento() devuelve el año de nacimiento (suponiendo que la fecha está
