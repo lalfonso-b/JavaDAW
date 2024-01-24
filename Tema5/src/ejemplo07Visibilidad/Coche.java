@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Coche {
 
 	// Propiedades o atributos.
-	String matricula;
+	private String matricula;
 	String marca;
-	String modelo;
+	public String modelo;
+	
 	String averia;
 	int quilometros;
 
