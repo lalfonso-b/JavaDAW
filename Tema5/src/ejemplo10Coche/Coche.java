@@ -12,7 +12,7 @@ public class Coche {
 	private int quilometros;
 
 	// Constructor explícito que tome los cinco valores de los atributos.
-	Coche(String matricula, String marca, String modelo, String averia, int quilometros) {
+	public Coche(String matricula, String marca, String modelo, String averia, int quilometros) {
 
 		this.matricula = matricula;
 		this.marca = marca;
@@ -24,7 +24,7 @@ public class Coche {
 
 	// Constructor explícito que tome la matrícula, marca y modelo, y deje el resto
 	// de valores sin modificar.
-	Coche(String matricula, String marca, String modelo) {
+	public Coche(String matricula, String marca, String modelo) {
 
 		this(matricula, marca, modelo, null, 0);
 
@@ -32,7 +32,7 @@ public class Coche {
 
 	// leeDatos() pregunta al usuario los valores de las propiedades y los lee desde
 	// la terminal.
-	void leeDatos() {
+	public void leeDatos() {
 
 		Scanner entrada = new Scanner(System.in);
 
@@ -56,7 +56,7 @@ public class Coche {
 	}
 
 	// Muestra todas las propiedades del objeto.
-	void mostrar() {
+	public void mostrar() {
 
 		System.out.println("\nDATOS DEL COCHE");
 		System.out.println("Matrícula: " + matricula + ".");
@@ -68,12 +68,6 @@ public class Coche {
 	}
 
 	// MÉTODOS DE ACCESO (GETTERS Y SETTERS)
-
-//	private String matricula;
-//	private String marca;
-//	private String modelo;
-//	private String averia;
-//	private int quilometros;
 
 	// Método que nos devuelve el valor del atributo matrícula.
 	public String getMatricula() {
@@ -122,32 +116,13 @@ public class Coche {
 
 	// Método que nos permite dar un valor al atributo quilómetros.
 	public void setQuilometros(int quilometros) {
-		
+
 		// Comprobamos que los quilómetros no sean un número negativo.
-		if(quilometros < 0) {
+		if (quilometros < 0) {
 			return;
 		}
-		
+
 		this.quilometros = quilometros;
-		
+
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
