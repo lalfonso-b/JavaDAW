@@ -35,6 +35,10 @@ public class Main {
 		// nombre de la clase, para evitar malentendidos.
 		Unidades.PI = 3.1416;
 
+		// Llamamos al método areaCirculo()
+		System.out.println("Área del círculo de radio 20 = " + u1.areaCirculo(20));
+		
+		
 	}
 
 }
