@@ -13,9 +13,9 @@ public class Unidades {
 	// Factor de conversión de centilitros a litros.
 	static double centilitros = 0.01;
 
-	// Método que dado un número nos devuelve el área del círculo cuyo radio es ese
-	// número.
-	public double areaCirculo(double radio) {
+	// El siguiente método es estático. Eso significa que podemos llamarlo desde el
+	// nombre de la clase, sin necesidad de crear un objeto previamente.
+	public static double areaCirculo(double radio) {
 		return PI * radio * radio;
 	}
 
