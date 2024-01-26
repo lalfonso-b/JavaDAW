@@ -35,12 +35,17 @@ public class Main {
 		// nombre de la clase, para evitar malentendidos.
 		Unidades.PI = 3.1416;
 
-		// Llamamos al método areaCirculo()
+		// Llamamos al método areaCirculo(). Como es estático, podemos llamarlo a partir
+		// del nombre de la clase. No es necesario crear un objeto Unidades y usarlo
+		// para llamar al método.
 		System.out.println("Área del círculo de radio 20 = " + Unidades.areaCirculo(20));
 
 	}
 
 }
+
+
+
 
 
 
