@@ -51,5 +51,18 @@ public class Inicio {
 		System.out.println("\nDatos del libro: \n" + libro1.toString());
 
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
