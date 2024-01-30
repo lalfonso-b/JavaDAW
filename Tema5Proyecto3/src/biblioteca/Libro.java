@@ -19,7 +19,7 @@ public class Libro {
 	}
 
 	public String toString() {
-		return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: " + autor + ", Año actual: " + anyoActual;
+		return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: " + autor.getNombre() + ", Año actual: " + anyoActual;
 	}
 
 	public String getTitulo() {
@@ -57,23 +57,5 @@ public class Libro {
 		// Por eso, usamos el nombre de la clase: Libro.anyoActual.
 		Libro.anyoActual = anyoActual;
 	}
-	
-	
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
