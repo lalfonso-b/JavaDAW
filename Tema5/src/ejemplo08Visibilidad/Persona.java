@@ -6,7 +6,7 @@ public class Persona {
 	private String apellidos;
 	String nombre;
 	public String dni;
-	
+
 	String fechaNacimiento;
 
 	// METÓDOS.

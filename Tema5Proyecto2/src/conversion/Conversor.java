@@ -8,7 +8,7 @@ public class Conversor {
 	private static final double CAL_A_JULIOS = 4.1862;
 
 	// Constructor implicito-------------------------------------
-	
+
 	public Conversor() {
 
 	}

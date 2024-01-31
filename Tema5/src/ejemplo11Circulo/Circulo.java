@@ -43,7 +43,7 @@ public class Circulo {
 	public double perimetro() {
 		return 2 * PI * radio;
 	}
-	
+
 	// MÉTODO DE ACCESO (GETTERS Y SETTERS).
 
 	public double getX() {
@@ -69,30 +69,5 @@ public class Circulo {
 	public void setRadio(double radio) {
 		this.radio = radio;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

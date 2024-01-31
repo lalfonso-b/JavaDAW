@@ -4,13 +4,13 @@ public class Libro {
 
 	private String titulo;
 	private String isbn;
-	private Autor autor;
+	private Autor[] autores;
 	private static int anyoActual;
 
-	public Libro(String titulo, String isbn, Autor autor) {
+	public Libro(String titulo, String isbn, Autor[] autores) {
 		this.titulo = titulo;
 		this.isbn = isbn;
-		this.autor = autor;
+		this.autores = autores;
 	}
 
 	public Libro(String titulo) {
@@ -19,7 +19,13 @@ public class Libro {
 	}
 
 	public String toString() {
-		return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: " + autor.getNombre() + ", Año actual: "
+		
+		if(autores.length == 1) {
+			return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: " + autores[0].getNombre() 
+					+ ", Año actual: " + anyoActual;
+		}
+		
+		return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: Varios autores" + ", Año actual: "
 				+ anyoActual;
 	}
 
@@ -39,12 +45,12 @@ public class Libro {
 		this.isbn = isbn;
 	}
 
-	public Autor getAutor() {
-		return autor;
+	public Autor[] getAutores() {
+		return autores;
 	}
 
-	public void setAutor(Autor autor) {
-		this.autor = autor;
+	public void setAutores(Autor[] autores) {
+		this.autores = autores;
 	}
 
 	public static int getAnyoActual() {

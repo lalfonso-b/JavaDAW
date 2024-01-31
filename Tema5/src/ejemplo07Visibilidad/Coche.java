@@ -8,7 +8,7 @@ public class Coche {
 	private String matricula;
 	String marca;
 	public String modelo;
-	
+
 	String averia;
 	int quilometros;
 

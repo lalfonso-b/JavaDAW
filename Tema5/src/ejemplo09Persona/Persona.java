@@ -106,25 +106,10 @@ public class Persona {
 	public String getFechaNacimiento() {
 		return fechaNacimiento;
 	}
-	
+
 	// Método que nos permite dar un valor al atributo fechaNacimiento.
 	public void setFechaNacimiento(String fechaNacimiento) {
-		this.fechaNacimiento =  fechaNacimiento;
+		this.fechaNacimiento = fechaNacimiento;
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

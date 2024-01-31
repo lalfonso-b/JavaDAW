@@ -8,7 +8,7 @@ public class App {
 
 		Scanner entrada = new Scanner(System.in);
 
-		Circulo circulo1 = new Circulo(0,0,15);
+		Circulo circulo1 = new Circulo(0, 0, 15);
 
 		System.out.println("El radio del círculo 1 es " + circulo1.radio);
 		System.out.println("Área del círculo 1 es " + circulo1.area());
