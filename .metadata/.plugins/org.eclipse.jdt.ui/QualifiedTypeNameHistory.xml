@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="biblioteca.Autor"/>
     <fullyQualifiedTypeName name="biblioteca.Libro"/>
     <fullyQualifiedTypeName name="auxiliar.Grupo"/>
+    <fullyQualifiedTypeName name="auxiliar.Alumno"/>
 </qualifiedTypeNameHistroy>

@@ -27,6 +27,9 @@ public class Inicio {
 		Alumno alumno2 = new Alumno();
 		alumno2.leeDatos();
 		System.out.println(alumno2.toString());
+		
+		System.out.println("¿Cuál es tu edad?");
+		int edad = Consola.leerInt("¡Tu edad debe ser un número entero!");
 
 	}
 
