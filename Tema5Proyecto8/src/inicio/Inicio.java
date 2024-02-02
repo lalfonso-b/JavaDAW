@@ -1,5 +1,6 @@
 package inicio;
 
+import auxiliar.Alumno;
 import auxiliar.Grupo;
 
 public class Inicio {
@@ -15,9 +16,24 @@ public class Inicio {
 		// para inicializar todos sus atributos.
 		Grupo grupo2 = new Grupo();
 		
-		grupo2.leeDatos();
-		System.out.println(grupo2.toString());
+//		grupo2.leeDatos();
+//		System.out.println(grupo2.toString());
+		
+		// Creamos un objeto Alumno pasándole los datos al constructor (le asignamos el grupo 3º B).
+		Alumno alumno1 = new Alumno(100, "Pérez López", "Luis", grupo1);
+		System.out.println(alumno1.toString());
+		
+		// Creamos un objeto Alumno llamando al método leeDatos().
+		Alumno alumno2 = new Alumno();
+		alumno2.leeDatos();
+		System.out.println(alumno2.toString());
 
 	}
 
 }
+
+
+
+
+
+
