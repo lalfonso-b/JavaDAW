@@ -42,7 +42,14 @@ public class Inicio {
 		
 		insti.muestraAlumnos();
 		
+		insti.delAlumno(100);
+		insti.muestraAlumnos();
 		
+		insti.delAlumno(50);
+		insti.muestraAlumnos();
+		
+		insti.addAlumno(alumno5);
+		insti.muestraAlumnos();
 
 	}
 
