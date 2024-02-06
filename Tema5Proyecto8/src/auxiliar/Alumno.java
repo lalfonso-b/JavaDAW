@@ -47,4 +47,21 @@ public class Alumno {
 		entrada.close();
 		
 	}
+	
+	public int getNumExpediente() {
+		return numExpediente;
+	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
