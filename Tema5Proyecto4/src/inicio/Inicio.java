@@ -41,6 +41,9 @@ public class Inicio {
 		Libro.setAnyoActual(anyo);
 
 		System.out.println("\nDatos del libro: \n" + libro1.toString());
+		
+		System.out.println("\nAutores del libro:");
+		System.out.println(libro1.muestraAutores());
 
 	}
 

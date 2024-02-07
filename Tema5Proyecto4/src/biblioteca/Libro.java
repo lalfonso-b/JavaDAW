@@ -19,14 +19,26 @@ public class Libro {
 	}
 
 	public String toString() {
-		
-		if(autores.length == 1) {
-			return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: " + autores[0].getNombre() 
-					+ ", Año actual: " + anyoActual;
+
+		if (autores.length == 1) {
+			return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: " + autores[0].getNombre() + ", Año actual: "
+					+ anyoActual;
 		}
-		
-		return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: Varios autores" + ", Año actual: "
-				+ anyoActual;
+
+		return "Título: " + titulo + ", ISBN: " + isbn + ", Autor: Varios autores" + ", Año actual: " + anyoActual;
+	}
+
+	public String muestraAutores() {
+
+		String autoresMostrar = "";
+
+		for (int i = 0; i < autores.length; i++) {
+			if (autores[i] != null) {
+				autoresMostrar = autoresMostrar + "  - " + autores[i].toString() + "\n";
+			}
+		}
+
+		return autoresMostrar;
 	}
 
 	public String getTitulo() {
