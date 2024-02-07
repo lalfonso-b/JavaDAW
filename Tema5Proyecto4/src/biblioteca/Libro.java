@@ -34,7 +34,7 @@ public class Libro {
 
 		for (int i = 0; i < autores.length; i++) {
 			if (autores[i] != null) {
-				autoresMostrar = autoresMostrar + "  - " + autores[i].toString() + "\n";
+				autoresMostrar = autoresMostrar + "  - " + autores[i].getNombre() + "\n";
 			}
 		}
 
