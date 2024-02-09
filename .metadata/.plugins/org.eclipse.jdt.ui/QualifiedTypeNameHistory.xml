@@ -10,4 +10,5 @@
     <fullyQualifiedTypeName name="auxiliar.Alumno"/>
     <fullyQualifiedTypeName name="instituto.Instituto"/>
     <fullyQualifiedTypeName name="utilidades.Consola"/>
+    <fullyQualifiedTypeName name="ejemplo01Persona.Persona"/>
 </qualifiedTypeNameHistroy>
