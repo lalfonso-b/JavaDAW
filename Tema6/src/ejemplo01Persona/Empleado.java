@@ -9,6 +9,7 @@ public class Empleado extends Persona {
 		this.codEmpleado = codEmpleado;
 	}
 	
+	@Override
 	public void mostrar() {
 		super.mostrar();
 		System.out.println("Código de empleado: " + codEmpleado);

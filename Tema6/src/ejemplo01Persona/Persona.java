@@ -17,7 +17,7 @@ public class Persona {
 	}
 
 	public void mostrar() {
-		System.out.println(nombre + " " + apellidos + ", con DNI " + dni + ".");
+		System.out.println("\n" + nombre + " " + apellidos + ", con DNI " + dni + ".");
 	}
 
 }

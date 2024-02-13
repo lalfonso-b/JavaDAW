@@ -8,11 +8,12 @@ public class Cliente extends Persona {
 		// Pasamos los apellidos, nombre y dni como argumentos al constructor de la
 		// clase padre, Persona.
 		super(apellidos, nombre, dni);
-		
+
 		// Inicializamos a mano el resto de atributos que no son heredados.
 		this.visa = visa;
 	}
 
+	@Override
 	public void mostrar() {
 		super.mostrar();
 		System.out.println("Visa: " + visa + ".");
