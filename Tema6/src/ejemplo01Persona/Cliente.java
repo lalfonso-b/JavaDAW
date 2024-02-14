@@ -15,8 +15,25 @@ public class Cliente extends Persona {
 
 	@Override
 	public void mostrar() {
-		super.mostrar();
+		System.out.println("\n" + nombre + " " + apellidos + ", con DNI " + dni + ".");
 		System.out.println("Visa: " + visa + ".");
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

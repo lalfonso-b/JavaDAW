@@ -1,6 +1,6 @@
 package ejemplo02Vehiculo;
 
-public class Vehiculo {
+public abstract class Vehiculo {
 
 	private String matricula;
 	private int capacidad;
