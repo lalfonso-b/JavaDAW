@@ -1,6 +1,6 @@
 package ejemplo04PolimorfismoVehiculo;
 
-public abstract class Vehiculo {
+public class Vehiculo {
 
 	private String matricula;
 	private int capacidad;
@@ -25,7 +25,7 @@ public abstract class Vehiculo {
 		
 	}
 	
-	public abstract void matricular();
+	
 	
 
 }

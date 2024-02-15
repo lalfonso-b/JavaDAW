@@ -41,10 +41,20 @@ public class Main {
 		// de tipo Persona apunta a un objeto Cliente.
 		Cliente cliente3 = (Cliente) p1;
 
-		// Lo siguiente dará error, ya qye p2 está apuntando a un objeto de tipo
+		// Lo siguiente dará error, ya que p2 está apuntando a un objeto de tipo
 		// Directivo,
 		// no de tipo Cliente.
 		// Cliente cliente4 = (Cliente) p2;
+
+		// Podemos crear un array de tipo Persona y guardar ahí tanto Clientes como
+		// Empleados como Directivos.
+		Persona[] personas = new Persona[10];
+
+		personas[0] = cliente1;
+		personas[1] = directivo1;
+		personas[2] = new Empleado("Jiménez", "Pedro", "20100100A", 5);
+
+		Empleado empleado1 = (Empleado) personas[2];
 
 	}
 

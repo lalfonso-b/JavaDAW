@@ -18,14 +18,6 @@ public class Coche extends Vehiculo {
 		salida = salida + "\nPuertas: " + puertas;
 		return salida;
 		
-//		Alternativa:
-//		return super.toString() + "\nPuertas: " + puertas;
-		
-	}
-
-	@Override
-	public void matricular() {
-				
 	}
 
 }
