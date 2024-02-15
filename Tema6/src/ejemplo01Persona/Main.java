@@ -9,10 +9,9 @@ public class Main {
 
 		Cliente cliente1 = new Cliente("Pérez Ortiz", "Rubén", "20100100R", "9012-1211-1732-1230");
 		cliente1.mostrar();
-		
+
 		Directivo directivo1 = new Directivo("Rodríguez", "Miguel", "10200200R", 51, 200);
 		directivo1.mostrar();
-		
 
 	}
 
