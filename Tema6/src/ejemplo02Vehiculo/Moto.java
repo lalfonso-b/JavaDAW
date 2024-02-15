@@ -17,4 +17,9 @@ public class Moto extends Vehiculo {
 
 	}
 
+	@Override
+	public void matricular() {
+		
+	}
+
 }

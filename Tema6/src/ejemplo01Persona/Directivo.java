@@ -11,9 +11,5 @@ public class Directivo extends Empleado {
 
 	}
 
-	@Override
-	public void mostrar() {
-		// TODO Rellenar el método mostrar
-		super.mostrar();
-	}
+	
 }

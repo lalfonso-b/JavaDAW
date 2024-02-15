@@ -11,8 +11,8 @@ public class Empleado extends Persona {
 	
 	@Override
 	public void mostrar() {
-		super.mostrar();
-		System.out.println("Código de empleado: " + codEmpleado);
+		System.out.println("\n" + getNombre() + " " + getApellidos() + ", con DNI " + getDni() + ".");
+		System.out.println("\nCódigo de empleado: " + codEmpleado);
 	}
 		
 }

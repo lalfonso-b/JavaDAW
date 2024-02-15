@@ -24,5 +24,28 @@ public abstract class Vehiculo {
 		return "Matrícula: " + matricula + "\nMarca: " + marca + "\nModelo: " + modelo;
 		
 	}
+	
+	public abstract void matricular();
+	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

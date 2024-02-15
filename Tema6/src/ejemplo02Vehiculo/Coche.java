@@ -23,4 +23,9 @@ public class Coche extends Vehiculo {
 		
 	}
 
+	@Override
+	public void matricular() {
+				
+	}
+
 }
