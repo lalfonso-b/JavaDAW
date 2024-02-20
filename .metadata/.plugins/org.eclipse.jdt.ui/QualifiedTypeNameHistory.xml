@@ -9,8 +9,9 @@
     <fullyQualifiedTypeName name="auxiliar.Grupo"/>
     <fullyQualifiedTypeName name="auxiliar.Alumno"/>
     <fullyQualifiedTypeName name="instituto.Instituto"/>
-    <fullyQualifiedTypeName name="utilidades.Consola"/>
     <fullyQualifiedTypeName name="ejemplo01Persona.Persona"/>
     <fullyQualifiedTypeName name="ejemplo01Persona.Directivo"/>
     <fullyQualifiedTypeName name="prac1.Ogg"/>
+    <fullyQualifiedTypeName name="ejemplo05Interfaces.Rectangulo"/>
+    <fullyQualifiedTypeName name="utilidades.Consola"/>
 </qualifiedTypeNameHistroy>

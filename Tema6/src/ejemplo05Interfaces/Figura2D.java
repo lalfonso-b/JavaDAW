@@ -6,4 +6,3 @@ public interface Figura2D {
 	double area();
 
 }
-
