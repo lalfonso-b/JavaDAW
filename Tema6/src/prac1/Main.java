@@ -6,8 +6,8 @@ public class Main {
 		
 //		Medio me1 = new Medio(); Da error porque Medio ahora es abstracta
 		
-		Mp3 mp1 = new Mp3();
-		Ogg o1 = new Ogg();
+//		Mp3 mp1 = new Mp3();
+//		Ogg o1 = new Ogg();
 		
 	}
 
