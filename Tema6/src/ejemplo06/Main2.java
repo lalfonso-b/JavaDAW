@@ -2,7 +2,7 @@ package ejemplo06;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main2 {
 
 	public static void main(String[] args) {
 
@@ -19,13 +19,9 @@ public class Main {
 			num = Integer.parseInt(numero);
 			System.out.println("La división de 20 entre " + num + " es " + 20 / num);
 			
-		} catch (NumberFormatException nfe) {
+		} catch (NumberFormatException | ArithmeticException e) {
 			
-			System.out.println("¡Tienes que escribir un número entero!");
-			
-		} catch (ArithmeticException ae) {
-			
-			System.out.println("¡No se puede dividir por cero!");
+			System.out.println("¡Tienes que escribir un número entero distinto de 0!");
 			
 		} catch (Exception e) {
 			
