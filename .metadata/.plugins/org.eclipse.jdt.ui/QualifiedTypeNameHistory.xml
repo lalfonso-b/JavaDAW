@@ -14,4 +14,6 @@
     <fullyQualifiedTypeName name="prac1.Ogg"/>
     <fullyQualifiedTypeName name="ejemplo05Interfaces.Rectangulo"/>
     <fullyQualifiedTypeName name="utilidades.Consola"/>
+    <fullyQualifiedTypeName name="prac1.Guardable"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>
