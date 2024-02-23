@@ -11,6 +11,10 @@ public class Simulador {
 
 		diodo1.leeDatos();
 		System.out.println(diodo1.toString());
+
+		Componente componente2 = diodo1;
+		diodo1 = led1;
+		
 	}
 
 }

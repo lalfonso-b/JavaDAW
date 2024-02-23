@@ -1,6 +1,8 @@
 package ejemplo02Vehiculo;
 
-public class Moto extends Vehiculo {
+// Como prueba hemos hecho esta clase de tipo final.
+// Esto significa que no podemos crear clases hijas.
+public final class Moto extends Vehiculo {
 
 	private boolean baul;
 
@@ -19,7 +21,7 @@ public class Moto extends Vehiculo {
 
 	@Override
 	public void matricular() {
-		
+
 	}
 
 }

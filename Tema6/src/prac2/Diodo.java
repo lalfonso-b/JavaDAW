@@ -1,5 +1,6 @@
 package prac2;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Diodo extends Componente {
@@ -24,16 +25,31 @@ public class Diodo extends Componente {
 
 		System.out.println("DATOS DEL DIODO");
 
-		System.out.print("Intensidad máxima: ");
-		double intensidadMaxima = entrada.nextDouble();
-		setIntensidadMaxima(intensidadMaxima);
+		try {
 
-		System.out.print("Longitud: ");
-		double longitud = entrada.nextDouble();
-		setLongitud(longitud);
+			System.out.print("Intensidad máxima: ");
+			double intensidadMaxima = entrada.nextDouble();
 
-		System.out.print("Tensión inversa: ");
-		tensionInversa = entrada.nextDouble();
+			System.out.print("Longitud: ");
+			double longitud = entrada.nextDouble();
+
+			System.out.print("Tensión inversa: ");
+			double tensionInversa = entrada.nextDouble();
+
+			// Actualizamos los atributos aquí y de esa forma, si se produce cualquier error
+			// no va a cambiar ninguno.
+			setIntensidadMaxima(intensidadMaxima);
+			setLongitud(longitud);
+			this.tensionInversa = tensionInversa;
+
+		} catch (InputMismatchException ime) {
+			System.out.println("Entrada incorrecta.");
+		} catch (Exception e) {
+			e.printStackTrace();
+			return;
+		} finally {
+			System.out.println("Fin de lectura de datos");
+		}
 
 	}
 
