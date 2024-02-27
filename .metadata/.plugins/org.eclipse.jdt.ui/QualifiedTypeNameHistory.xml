@@ -25,7 +25,10 @@
     <fullyQualifiedTypeName name="prac2.Componente"/>
     <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="ejemplos.Ejemplo01JFrame"/>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="ejemplos.Ejemplo02JButton"/>
+    <fullyQualifiedTypeName name="ejemplos.Ejemplo03JTextField"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
     <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
 </qualifiedTypeNameHistroy>
