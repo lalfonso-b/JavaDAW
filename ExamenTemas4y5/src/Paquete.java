@@ -15,10 +15,8 @@ public class Paquete {
 		return codigo + " " + destinatario + " (" + direccion.toString() + ")";
 	}
 
-	// Para que se pueda obtener la ciudad de un paquete.
-	// Llamamos al metodo getciudad de Direccion.
-	public String getCiudad() {
-		return direccion.getCiudad();
+	public Direccion getDireccion() {
+		return direccion;
 	}
 
 	public int getCodigoPaquete() {
