@@ -17,7 +17,7 @@ public class Ejemplo04JComboBox extends JFrame {
 		setLayout(new FlowLayout());
 
 		JLabel lblProvincia = new JLabel("Selecciona tu provincia preferida:");
-		JComboBox cmbProvincias = new JComboBox();
+		JComboBox<String> cmbProvincias = new JComboBox<>();
 		cmbProvincias.addItem("Islas Baleares");
 		cmbProvincias.addItem("Alicante");
 		cmbProvincias.addItem("Murcia");
@@ -37,8 +37,3 @@ public class Ejemplo04JComboBox extends JFrame {
 	}
 
 }
-
-
-
-
-
