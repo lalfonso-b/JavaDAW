@@ -4,9 +4,9 @@ import javax.swing.JFrame;
 import javax.swing.UIManager;
 
 public class Ejemplo05DetectarLookAndFeels extends JFrame {
-	
+
 	public Ejemplo05DetectarLookAndFeels() {
-		
+
 		UIManager.LookAndFeelInfo[] laf = UIManager.getInstalledLookAndFeels();
 		for (int i = 0; i < laf.length; i++) {
 			System.out.println("Class name: " + laf[i].getClassName());

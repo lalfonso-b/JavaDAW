@@ -53,8 +53,8 @@ public class Inicio {
 
 		System.out.println("Hay " + insti.numAlumnos() + " alumnos.");
 
-		System.out.println("El alumno con número de expediente 102 está en la posición " + insti.buscaAlumno(102) 
-			+ ".");
+		System.out
+				.println("El alumno con número de expediente 102 está en la posición " + insti.buscaAlumno(102) + ".");
 
 	}
 

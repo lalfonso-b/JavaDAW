@@ -23,19 +23,19 @@ public class Ejer09 {
 		if (x < y) {
 			return y;
 		}
-		
+
 		return x;
 
 	}
 
 	static int min(int x, int y) {
-		
+
 		if (x > y) {
 			return y;
 		}
-		
+
 		return x;
-		
+
 	}
 
 }

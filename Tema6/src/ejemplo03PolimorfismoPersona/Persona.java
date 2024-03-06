@@ -15,11 +15,11 @@ public class Persona {
 		this.nombre = nombre;
 		this.dni = dni;
 	}
-	
+
 	public void mostrar() {
 		System.out.println("\n" + getNombre() + " " + getApellidos() + ", con DNI " + getDni() + ".");
 	}
-	
+
 	public String getApellidos() {
 		return apellidos;
 	}
@@ -43,7 +43,5 @@ public class Persona {
 	public void setDni(String dni) {
 		this.dni = dni;
 	}
-	
-	
 
 }

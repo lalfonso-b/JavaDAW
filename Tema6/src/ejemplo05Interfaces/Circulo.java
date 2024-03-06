@@ -3,7 +3,7 @@ package ejemplo05Interfaces;
 public class Circulo implements Figura2D, Mostrable {
 
 	private int radio;
-	
+
 	public Circulo(int radio) {
 		this.radio = radio;
 	}

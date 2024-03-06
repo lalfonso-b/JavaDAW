@@ -25,7 +25,7 @@ public class Ejemplo03JTextField extends JFrame {
 
 		JLabel lblEdad = new JLabel("Edad:");
 		JTextField txtEdad = new JTextField(20);
-		
+
 		JLabel lblSatisfecho = new JLabel("¿Estás satisfecho con el programa?");
 
 		JRadioButton rdbSatisfecho = new JRadioButton("Satisfecho", true);

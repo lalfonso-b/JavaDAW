@@ -12,7 +12,6 @@ public class Inicio {
 	public static void main(String[] args) {
 
 		// Leemos los datos de los dos autores del libro.
-		
 
 		Autor autor1 = leerAutor();
 		System.out.println("\nDatos del autor: \n" + autor1.toString());
@@ -41,7 +40,7 @@ public class Inicio {
 		Libro.setAnyoActual(anyo);
 
 		System.out.println("\nDatos del libro: \n" + libro1.toString());
-		
+
 		System.out.println("\nAutores del libro:");
 		System.out.println(libro1.muestraAutores());
 
@@ -69,7 +68,3 @@ public class Inicio {
 	}
 
 }
-
-
-
-

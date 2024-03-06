@@ -14,7 +14,7 @@ public class Simulador {
 
 		Componente componente2 = diodo1;
 		diodo1 = led1;
-		
+
 	}
 
 }

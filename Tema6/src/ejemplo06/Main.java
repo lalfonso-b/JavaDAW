@@ -29,25 +29,26 @@ public class Main {
 		} catch (NumberFormatException nfe) {
 			// Esto se ejecutará si se ha producido un error de tipo NumberFormatException.
 			System.out.println("¡Tienes que escribir un número entero!");
-			
+
 			// Ahora el programa saltará fuera del bloque try-catch.
 
 		} catch (ArithmeticException ae) {
 			// Esto se ejecutará si se ha producido un error de tipo ArithmeticException.
-			
+
 			System.out.println("¡No se puede dividir por cero!");
 
 			// Ahora el programa saltará fuera del bloque try-catch.
-			
+
 		} catch (Exception e) {
 			// Esto se ejecutará si se ha producido un error de cualquier tipo.
 
 			System.out.println("Se ha producido un error inesperado.");
 			System.out.println(e.toString());
-			
+
 		}
 
-		// Este código se ejecutará tras el try-catch aunque se haya producido una excepción.
+		// Este código se ejecutará tras el try-catch aunque se haya producido una
+		// excepción.
 		System.out.println("\nAhora seguiría el código fuera del catch...");
 
 	}

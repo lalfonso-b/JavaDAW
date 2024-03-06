@@ -43,8 +43,3 @@ public class Ejemplo02JButton extends JFrame {
 	}
 
 }
-
-
-
-
-

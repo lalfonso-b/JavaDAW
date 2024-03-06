@@ -29,7 +29,5 @@ public abstract class Componente {
 	public double getLongitud() {
 		return longitud;
 	}
-	
-	
 
 }

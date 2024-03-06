@@ -10,22 +10,22 @@ public class Coche extends Vehiculo {
 		this.puertas = puertas;
 
 	}
-	
+
 	@Override
 	public String toString() {
-		
+
 		String salida = super.toString();
 		salida = salida + "\nPuertas: " + puertas;
 		return salida;
-		
+
 //		Alternativa:
 //		return super.toString() + "\nPuertas: " + puertas;
-		
+
 	}
 
 	@Override
 	public void matricular() {
-				
+
 	}
 
 }

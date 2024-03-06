@@ -24,7 +24,8 @@ public class Ejemplo04JComboBox extends JFrame {
 		setLayout(new FlowLayout(FlowLayout.LEFT));
 
 		try {
-			// Aplicamos el tema (look and feel) Nimbus, que ya viene incluído en la instalación de Java.
+			// Aplicamos el tema (look and feel) Nimbus, que ya viene incluído en la
+			// instalación de Java.
 			UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
 
 			// Esta instrucción asegura que el tema se aplique correctamente a toda la

@@ -8,19 +8,18 @@ public class Main3 {
 
 		try {
 			dividirPor20();
-		}catch(NumberFormatException nfe) {
+		} catch (NumberFormatException nfe) {
 			System.out.println("¡Tienes que escribir un número entero!");
-		} catch(ArithmeticException ae) {
+		} catch (ArithmeticException ae) {
 			System.out.println("¡No se puede dividir por cero!");
-		} catch(Exception e) {
+		} catch (Exception e) {
 			System.out.println("Se ha producido un error inesperado.");
 			System.out.println(e.toString());
 		}
-		
 
 	}
 
-	static void dividirPor20() throws NumberFormatException, ArithmeticException, Exception{
+	static void dividirPor20() throws NumberFormatException, ArithmeticException, Exception {
 
 		Scanner entrada = new Scanner(System.in);
 

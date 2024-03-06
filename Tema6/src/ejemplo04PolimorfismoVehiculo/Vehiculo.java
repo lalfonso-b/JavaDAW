@@ -17,35 +17,12 @@ public class Vehiculo {
 		this.modelo = modelo;
 		this.potencia = potencia;
 	}
-	
+
 	@Override
 	public String toString() {
-		
+
 		return "Matrícula: " + matricula + "\nMarca: " + marca + "\nModelo: " + modelo;
-		
+
 	}
-	
-	
-	
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

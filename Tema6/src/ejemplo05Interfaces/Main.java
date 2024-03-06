@@ -11,8 +11,9 @@ public class Main {
 		// de una clase que implemente la interfaz Figura2D.
 		Figura2D figura1 = c1;
 		Figura2D figura2 = r1;
-		
-		// Si llamamos al método area() de figura1, estaremos llamando al método de Círculo.
+
+		// Si llamamos al método area() de figura1, estaremos llamando al método de
+		// Círculo.
 		// Sólo podemos llamar a métodos que estén en la interface Figura2D.
 		System.out.println("El área de la figura 1 es " + figura1.area());
 

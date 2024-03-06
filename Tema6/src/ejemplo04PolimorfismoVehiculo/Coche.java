@@ -10,14 +10,14 @@ public class Coche extends Vehiculo {
 		this.puertas = puertas;
 
 	}
-	
+
 	@Override
 	public String toString() {
-		
+
 		String salida = super.toString();
 		salida = salida + "\nPuertas: " + puertas;
 		return salida;
-		
+
 	}
 
 }

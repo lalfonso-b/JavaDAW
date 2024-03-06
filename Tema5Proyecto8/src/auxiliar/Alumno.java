@@ -45,23 +45,11 @@ public class Alumno {
 		grupo.leeDatos();
 
 		entrada.close();
-		
+
 	}
-	
+
 	public int getNumExpediente() {
 		return numExpediente;
 	}
-	
+
 }
-
-
-
-
-
-
-
-
-
-
-
-

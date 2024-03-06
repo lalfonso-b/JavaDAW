@@ -2,7 +2,7 @@ public class Taller {
 
 	private final int MAX_LAVADORAS = 20;
 	private Lavadora[] lavadoras;
-	
+
 	public Taller() {
 		lavadoras = new Lavadora[MAX_LAVADORAS];
 	}
@@ -59,14 +59,3 @@ public class Taller {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
