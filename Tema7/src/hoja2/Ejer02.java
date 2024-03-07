@@ -7,9 +7,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JSlider;
 
-public class Ejer2 extends JFrame {
+public class Ejer02 extends JFrame {
 
-	public Ejer2() {
+	public Ejer02() {
 		super("Termostato");
 		setSize(300, 450);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -36,7 +36,7 @@ public class Ejer2 extends JFrame {
 
 	public static void main(String[] args) {
 
-		Ejer2 ventana = new Ejer2();
+		Ejer02 ventana = new Ejer02();
 
 	}
 

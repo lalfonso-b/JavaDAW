@@ -3,9 +3,9 @@ package hoja2;
 import javax.swing.JFrame;
 import javax.swing.JSlider;
 
-public class Ejer1 extends JFrame {
+public class Ejer01 extends JFrame {
 
-	public Ejer1() {
+	public Ejer01() {
 
 		super("Velocidad de crucero");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -26,7 +26,7 @@ public class Ejer1 extends JFrame {
 
 	public static void main(String[] args) {
 
-		Ejer1 ventana = new Ejer1();
+		Ejer01 ventana = new Ejer01();
 
 	}
 
