@@ -11,14 +11,14 @@ public class Ejer1 extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(300, 100);
 
-		JSlider sld = new JSlider(10, 120, 90);
+		JSlider sldVelocidad = new JSlider(10, 120, 90);
 
-		sld.setPaintLabels(true);
-		sld.setPaintTicks(true);
-		sld.setMajorTickSpacing(20);
-		sld.setMinorTickSpacing(5);
+		sldVelocidad.setPaintLabels(true);
+		sldVelocidad.setPaintTicks(true);
+		sldVelocidad.setMajorTickSpacing(20);
+		sldVelocidad.setMinorTickSpacing(5);
 
-		add(sld);
+		add(sldVelocidad);
 
 		setVisible(true);
 
