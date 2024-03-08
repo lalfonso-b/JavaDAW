@@ -10,15 +10,26 @@ import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
 public class Ejer04 extends JFrame {
 
 	public Ejer04() {
 
 		super("Suscripción");
-		setSize(250, 320);
+		setSize(300, 330);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setLayout(new FlowLayout());
+		
+		try {
+			UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
+			SwingUtilities.updateComponentTreeUI(this);
+		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException
+				| UnsupportedLookAndFeelException e) {
+			e.printStackTrace();
+		}
 
 		JLabel lblNombre = new JLabel("Nombre");
 		JTextField txtNombre = new JTextField(20);
@@ -45,6 +56,7 @@ public class Ejer04 extends JFrame {
 
 		add(lblMotivo);
 		add(scrMotivo);
+		
 
 		add(chkInfo);
 
