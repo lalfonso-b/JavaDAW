@@ -1,5 +1,6 @@
 package ejemplos;
 
+import java.awt.FlowLayout;
 import java.awt.GridLayout;
 
 import javax.swing.JButton;
@@ -22,6 +23,7 @@ public class Ejemplo14GridLayout extends JFrame {
 
 		// Parte izquierda
 		JPanel panelIzquierdo = new JPanel();
+		panelIzquierdo.setLayout(new FlowLayout(FlowLayout.LEFT));
 
 		JLabel lblTitulo = new JLabel("Título");
 		JTextField txtTitulo = new JTextField(20);
