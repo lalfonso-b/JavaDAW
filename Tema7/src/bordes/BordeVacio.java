@@ -1,5 +1,6 @@
 package bordes;
 
+import java.awt.Color;
 import java.awt.FlowLayout;
 
 import javax.swing.BorderFactory;
@@ -9,6 +10,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class BordeVacio extends JFrame {
+	
 	public static void main(String[] args) {
 		new BordeVacio();
 	}
@@ -21,7 +23,8 @@ public class BordeVacio extends JFrame {
 		setLayout(new FlowLayout(FlowLayout.LEFT));
 		
 		JPanel panel = (JPanel) this.getContentPane();
-		panel.setBorder(BorderFactory.createEmptyBorder(40, 0, 0, 0));
+		panel.setBorder(BorderFactory.createEmptyBorder(40, 20, 0, 0));
+		panel.setBackground(Color.GREEN);
 		
 		JLabel lblNombre = new JLabel("Nombre completo");
 		JTextField txtNombre = new JTextField(15);
