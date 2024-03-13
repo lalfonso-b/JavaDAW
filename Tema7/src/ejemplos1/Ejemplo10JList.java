@@ -1,4 +1,4 @@
-package ejemplos;
+package ejemplos1;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -20,18 +20,17 @@ public class Ejemplo10JList extends JFrame {
 
 		JLabel lblPais = new JLabel("Elige tu país preferido");
 
-		String[] paises = { "España", "Francia", "Reino Unido", "Italia", "Bélgica", 
-				"Holanda", "Luxemburgo" };
+		String[] paises = { "España", "Francia", "Reino Unido", "Italia", "Bélgica", "Holanda", "Luxemburgo" };
 		JList<String> lstPais = new JList<>(paises);
 		JScrollPane scrPais = new JScrollPane(lstPais);
-		scrPais.setPreferredSize(new Dimension(150,80));
-		
+		scrPais.setPreferredSize(new Dimension(150, 80));
+
 		add(lblPais);
 		add(scrPais);
 
 		setVisible(true);
 	}
-	
+
 	public static void main(String[] args) {
 		new Ejemplo10JList();
 	}

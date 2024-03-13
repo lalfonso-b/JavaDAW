@@ -1,14 +1,18 @@
-package ejemplos;
+package ejemplos1;
+
+import java.awt.FlowLayout;
 
 import javax.swing.JFrame;
 
-public class Ejemplo01JFrame extends JFrame {
+public class Plantilla extends JFrame {
 
-	public Ejemplo01JFrame() {
+	public Plantilla() {
 
-		super("Hola, Mundo!");
+		super("");
 		setSize(400, 300);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+		setLayout(new FlowLayout());
 
 		setLocationRelativeTo(null);
 
@@ -17,9 +21,7 @@ public class Ejemplo01JFrame extends JFrame {
 	}
 
 	public static void main(String[] args) {
-
-		Ejemplo01JFrame ejemplo = new Ejemplo01JFrame();
-
+		new Plantilla();
 	}
 
 }

@@ -1,4 +1,4 @@
-package ejemplos;
+package ejemplos1;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -45,8 +45,8 @@ public class Ejemplo09JToolBar extends JFrame {
 		// un JLabel y un JScrollPane.
 		JPanel panelCentro = new JPanel();
 		panelCentro.setLayout(new FlowLayout());
-		//panelCentro.setBackground(Color.RED);
-		
+		// panelCentro.setBackground(Color.RED);
+
 		JLabel lblComentarios = new JLabel("Comentarios");
 		JTextArea txtComentarios = new JTextArea();
 		JScrollPane scrComentarios = new JScrollPane(txtComentarios);
@@ -54,7 +54,7 @@ public class Ejemplo09JToolBar extends JFrame {
 
 		panelCentro.add(lblComentarios);
 		panelCentro.add(scrComentarios);
-		
+
 		add(panelCentro, BorderLayout.CENTER);
 
 		setVisible(true);

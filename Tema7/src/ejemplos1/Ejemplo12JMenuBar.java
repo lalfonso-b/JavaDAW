@@ -1,4 +1,4 @@
-package ejemplos;
+package ejemplos1;
 
 import java.awt.FlowLayout;
 
@@ -22,8 +22,7 @@ public class Ejemplo12JMenuBar extends JFrame {
 
 		JMenuItem itemNuevo = new JMenuItem("Nuevo");
 		JMenuItem itemAbrirArchivo = new JMenuItem("Abrir archivo...");
-		JMenuItem itemAbrirProyecto = new JMenuItem("Abrir proyectos desde el "
-				+ "sistema de archivos...");
+		JMenuItem itemAbrirProyecto = new JMenuItem("Abrir proyectos desde el " + "sistema de archivos...");
 		JMenuItem itemArchivosRecientes = new JMenuItem("Archivos recientes");
 
 		menuArchivo.add(itemNuevo);

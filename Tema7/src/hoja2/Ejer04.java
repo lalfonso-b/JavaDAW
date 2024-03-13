@@ -22,7 +22,7 @@ public class Ejer04 extends JFrame {
 		setSize(300, 330);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setLayout(new FlowLayout());
-		
+
 		try {
 			UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
 			SwingUtilities.updateComponentTreeUI(this);
@@ -40,9 +40,9 @@ public class Ejer04 extends JFrame {
 		JTextArea txtMotivo = new JTextArea();
 		txtMotivo.setLineWrap(true);
 		txtMotivo.setWrapStyleWord(true);
-		
+
 		JScrollPane scrMotivo = new JScrollPane(txtMotivo);
-		
+
 		scrMotivo.setPreferredSize(new Dimension(235, 100));
 
 		JCheckBox chkInfo = new JCheckBox("Recibir información por correo", true);
@@ -56,7 +56,6 @@ public class Ejer04 extends JFrame {
 
 		add(lblMotivo);
 		add(scrMotivo);
-		
 
 		add(chkInfo);
 

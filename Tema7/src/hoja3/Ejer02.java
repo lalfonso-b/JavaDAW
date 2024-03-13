@@ -16,8 +16,8 @@ public class Ejer02 extends JFrame {
 
 		setLayout(new FlowLayout());
 
-		String[] marcas = { "Peugeot", "Volkswagen", "Renault", "Seat", "Ferrari", "Porsche", 
-				"Ferrari", "Jaguar", "Dacia" };
+		String[] marcas = { "Peugeot", "Volkswagen", "Renault", "Seat", "Ferrari", "Porsche", "Ferrari", "Jaguar",
+				"Dacia" };
 
 		JList<String> lstMarcas = new JList<>(marcas);
 		JScrollPane scrMarcas = new JScrollPane(lstMarcas);
