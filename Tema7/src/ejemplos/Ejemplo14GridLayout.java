@@ -1,5 +1,6 @@
 package ejemplos;
 
+import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 
@@ -14,33 +15,30 @@ public class Ejemplo14GridLayout extends JFrame {
 	public Ejemplo14GridLayout() {
 
 		super("Biblioteca");
-		setSize(400, 300);
+		setSize(400, 170);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-
-		setLayout(new GridLayout(1, 2));
-
 		setLocationRelativeTo(null);
+		setLayout(new GridLayout(1, 2, 0, 15));
 
-		// Parte izquierda
-		JPanel panelIzquierdo = new JPanel();
-		panelIzquierdo.setLayout(new FlowLayout(FlowLayout.LEFT));
+		JPanel panelIzquierda = new JPanel();
+		panelIzquierda.setLayout(new FlowLayout(FlowLayout.LEFT));
 
 		JLabel lblTitulo = new JLabel("Título");
-		JTextField txtTitulo = new JTextField(20);
+		JTextField txtTitulo = new JTextField();
+		txtTitulo.setPreferredSize(new Dimension(180, 30));
 
 		JLabel lblAutor = new JLabel("Autor");
-		JTextField txtAutor = new JTextField(20);
+		JTextField txtAutor = new JTextField();
+		txtAutor.setPreferredSize(new Dimension(180, 30));
 
-		panelIzquierdo.add(lblTitulo);
-		panelIzquierdo.add(txtTitulo);
-		panelIzquierdo.add(lblAutor);
-		panelIzquierdo.add(txtAutor);
+		panelIzquierda.add(lblTitulo);
+		panelIzquierda.add(txtTitulo);
+		panelIzquierda.add(lblAutor);
+		panelIzquierda.add(txtAutor);
 
-		// Parte derecha
 		JButton btnAlta = new JButton("Alta");
 
-		// Ventana
-		add(panelIzquierdo);
+		add(panelIzquierda);
 		add(btnAlta);
 
 		setVisible(true);
@@ -48,7 +46,9 @@ public class Ejemplo14GridLayout extends JFrame {
 	}
 
 	public static void main(String[] args) {
+
 		new Ejemplo14GridLayout();
+
 	}
 
 }
