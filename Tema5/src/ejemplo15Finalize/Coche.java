@@ -9,7 +9,7 @@ public class Coche {
 	private String marca;
 	private String modelo;
 	private String averia;
-	private int quilometros;	
+	private int quilometros;
 
 	// Constructor explícito que tome los cinco valores de los atributos.
 	public Coche(String matricula, String marca, String modelo, String averia, int quilometros) {
@@ -66,12 +66,12 @@ public class Coche {
 		System.out.println("Quilometraje: " + quilometros + ".");
 
 	}
-	
+
 	@Override
 	protected void finalize() throws Throwable {
-		
+
 		System.out.println("ELIMINANDO OBJETO DE LA MEMORIA");
-		
+
 	}
 
 	// MÉTODOS DE ACCESO (GETTERS Y SETTERS)

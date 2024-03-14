@@ -17,12 +17,12 @@ public class Ejemplo15ActionEvent extends JFrame {
 		setLayout(new FlowLayout());
 
 		setLocationRelativeTo(null);
-		
+
 		JButton btnPulsar = new JButton("Púlsame");
 		btnPulsar.addActionListener(new Ejemplo15ActionListener());
-		
+
 		JLabel lblMensaje = new JLabel("Aún no has pulsado el botón");
-		
+
 		add(btnPulsar);
 		add(lblMensaje);
 
