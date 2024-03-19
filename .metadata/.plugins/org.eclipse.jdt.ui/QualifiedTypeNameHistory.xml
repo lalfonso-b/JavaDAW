@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="instituto.Instituto"/>
-    <fullyQualifiedTypeName name="ejemplo01Persona.Persona"/>
     <fullyQualifiedTypeName name="ejemplo01Persona.Directivo"/>
     <fullyQualifiedTypeName name="prac1.Ogg"/>
     <fullyQualifiedTypeName name="ejemplo05Interfaces.Rectangulo"/>
@@ -24,7 +22,6 @@
     <fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
     <fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
     <fullyQualifiedTypeName name="ejemplos.Ejemplo04JComboBox"/>
-    <fullyQualifiedTypeName name="javax.swing.JComboBox"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="javax.swing.JSlider"/>
     <fullyQualifiedTypeName name="ejemplos.Ejemplo07JSlider"/>
@@ -43,21 +40,24 @@
     <fullyQualifiedTypeName name="javax.swing.JProgressBar"/>
     <fullyQualifiedTypeName name="ejemplos.Ejemplo11JProgressBar"/>
     <fullyQualifiedTypeName name="java.awt.Dimension"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="ejemplos.Ejemplo12JMenuBar"/>
     <fullyQualifiedTypeName name="javax.swing.JMenu"/>
     <fullyQualifiedTypeName name="javax.swing.JMenuBar"/>
     <fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
     <fullyQualifiedTypeName name="java.awt.GridLayout"/>
     <fullyQualifiedTypeName name="javax.swing.JPanel"/>
-    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
     <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="ejemplo3.Ejemplo15ActionListener"/>
-    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
-    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="javax.swing.JTextField"/>
     <fullyQualifiedTypeName name="java.awt.event.FocusListener"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="ejemplos3.Ejemplo19ItemEvent"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JComboBox"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="java.awt.event.ItemListener"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 </qualifiedTypeNameHistroy>
