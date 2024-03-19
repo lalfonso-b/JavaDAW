@@ -29,11 +29,17 @@ public class Ejemplo17ActionEventClasesAnonimas extends JFrame {
 
 		btnAzul = new JButton("Azul");
 		btnAzul.setBackground(new Color(150, 150, 255));
-		btnAzul.addActionListener(null);
+		btnAzul.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				lblMensaje.setText("Has pulsado el botón azul.");
+			}
+		});
 
 		btnRojo = new JButton("Rojo");
 		btnRojo.setBackground(Color.RED);
-		btnRojo.addActionListener(null);
+		btnRojo.addActionListener();
 
 		lblMensaje = new JLabel("Pulsa alguno de los botones.");
 		lblPulsaciones = new JLabel("");
