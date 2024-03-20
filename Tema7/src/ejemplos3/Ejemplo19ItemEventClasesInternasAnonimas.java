@@ -8,12 +8,12 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class Ejemplo19ItemEventClasesAnonimas extends JFrame implements ItemListener {
+public class Ejemplo19ItemEventClasesInternasAnonimas extends JFrame {
 
 	private JComboBox<String> cmbAsignaturas;
 	private JLabel lblPreferida;
 
-	public Ejemplo19ItemEventClasesAnonimas() {
+	public Ejemplo19ItemEventClasesInternasAnonimas() {
 
 		super("Asignaturas");
 		setSize(400, 300);
@@ -34,7 +34,30 @@ public class Ejemplo19ItemEventClasesAnonimas extends JFrame implements ItemList
 		cmbAsignaturas.addItem("Sistemas informáticos");
 		cmbAsignaturas.addItem("Lenguaje de marcas");
 
-		cmbAsignaturas.addItemListener(this);
+		cmbAsignaturas.addItemListener(new ItemListener() {
+			
+			@Override
+			public void itemStateChanged(ItemEvent e) {
+
+//				String seleccionado = (String) cmbAsignaturas.getSelectedItem();
+				//
+//				if (seleccionado.equals("Selecciona una")) {
+//					lblPreferida.setText("");
+//				} else {
+//					lblPreferida.setText("Has seleccionado " + seleccionado);
+//				}
+
+				// Otra manera:
+				int seleccionado = cmbAsignaturas.getSelectedIndex();
+
+				if (seleccionado == 0) {
+					lblPreferida.setText("");
+				} else {
+					lblPreferida.setText("Has seleccionado " + cmbAsignaturas.getSelectedItem());
+				}
+
+			}
+		});
 
 		lblPreferida = new JLabel();
 
@@ -45,29 +68,7 @@ public class Ejemplo19ItemEventClasesAnonimas extends JFrame implements ItemList
 		setVisible(true);
 	}
 
-	@Override
-	public void itemStateChanged(ItemEvent e) {
-
-//		String seleccionado = (String) cmbAsignaturas.getSelectedItem();
-//
-//		if (seleccionado.equals("Selecciona una")) {
-//			lblPreferida.setText("");
-//		} else {
-//			lblPreferida.setText("Has seleccionado " + seleccionado);
-//		}
-
-		// Otra manera:
-		int seleccionado = cmbAsignaturas.getSelectedIndex();
-
-		if (seleccionado == 0) {
-			lblPreferida.setText("");
-		} else {
-			lblPreferida.setText("Has seleccionado " + cmbAsignaturas.getSelectedItem());
-		}
-
-	}
-
 	public static void main(String[] args) {
-		new Ejemplo19ItemEventClasesAnonimas();
+		new Ejemplo19ItemEventClasesInternasAnonimas();
 	}
 }
