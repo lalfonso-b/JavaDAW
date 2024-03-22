@@ -8,7 +8,7 @@ import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class Actividad3b extends JFrame {
+public class Ejer03b extends JFrame {
 
 	private JCheckBox checkAvion;
 	private JCheckBox checkAeropuerto;
@@ -16,7 +16,7 @@ public class Actividad3b extends JFrame {
 	private JCheckBox checkPensionCompleta;
 	private JLabel lblPrecioTotal;
 
-	public Actividad3b() {
+	public Ejer03b() {
 
 		super("Viajes Gorrión");
 		setSize(220, 220);
@@ -96,7 +96,7 @@ public class Actividad3b extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new Actividad3b();
+		new Ejer03b();
 
 	}
 

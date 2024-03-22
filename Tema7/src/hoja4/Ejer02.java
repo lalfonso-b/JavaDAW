@@ -10,12 +10,12 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class Actividad2 extends JFrame implements ItemListener {
+public class Ejer02 extends JFrame implements ItemListener {
 
 	private JComboBox<String> cmbCurso;
 	private JLabel lblCursoElegido;
 
-	public Actividad2() {
+	public Ejer02() {
 		super("Matrícula");
 		setSize(270, 250);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -71,7 +71,7 @@ public class Actividad2 extends JFrame implements ItemListener {
 	}
 
 	public static void main(String[] args) {
-		new Actividad2();
+		new Ejer02();
 	}
 
 }

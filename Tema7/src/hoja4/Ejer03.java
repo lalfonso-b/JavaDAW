@@ -7,7 +7,7 @@ import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class Actividad3 extends JFrame implements ItemListener {
+public class Ejer03 extends JFrame implements ItemListener {
 
     private JCheckBox checkAvion;
     private JCheckBox checkAeropuerto;
@@ -15,7 +15,7 @@ public class Actividad3 extends JFrame implements ItemListener {
     private JCheckBox checkPensionCompleta;
     private JLabel lblPrecioTotal;
 
-    public Actividad3() {
+    public Ejer03() {
 
         super("Viajes Gorrión");
         setSize(220, 220);
@@ -70,7 +70,7 @@ public class Actividad3 extends JFrame implements ItemListener {
     }
 
     public static void main(String[] args) {
-        new Actividad3();
+        new Ejer03();
 
     }
 
