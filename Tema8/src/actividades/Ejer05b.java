@@ -29,7 +29,7 @@ public class Ejer05b {
 
 		// Pedimos el nombre del archivo
 		Scanner sc = new Scanner(System.in);
-		
+
 		System.out.println("Introduce el nombre del archivo: ");
 		String nombreArchivo = sc.nextLine();
 
@@ -55,22 +55,18 @@ public class Ejer05b {
 			// Leemos el archivo línea a línea
 
 			String linea = buffer.readLine();
+			int apariciones;
 
 			while (linea != null) {
 
-				int index = linea.indexOf(palabra);
-
-				while (index != -1) {
-
-					contadorPalabras++;
-
-					index = linea.indexOf(palabra, index + 1);
-
-				}
+				apariciones = numApariciones(linea, palabra);
+				contadorPalabras = contadorPalabras + apariciones;
 
 				linea = buffer.readLine();
 
-				contadorLineas++;
+				if (apariciones > 0) {
+					contadorLineas++;
+				}
 
 			}
 
@@ -87,6 +83,22 @@ public class Ejer05b {
 
 		System.out.println("La palabra '" + palabra + "' aparece " + contadorPalabras + " veces en el archivo '"
 				+ nombreArchivo + "' en " + contadorLineas + " líneas.");
+
+	}
+
+	private static int numApariciones(String linea, String palabra) {
+
+		int numPalabras = 0;
+		int index = linea.indexOf(palabra);
+
+		while (index != -1) {
+
+			numPalabras++;
+			index = linea.indexOf(palabra, index + palabra.length());
+
+		}
+
+		return numPalabras;
 
 	}
 
