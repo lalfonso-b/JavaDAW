@@ -8,17 +8,16 @@ import java.util.Scanner;
 public class Ejemplo04CarpetaPersonal {
 
 	public static void main(String[] args) {
-		
+
 		final String NOMBRE_ARCHIVO = System.getProperty("user.home") + "/nombres.txt";
 
 		Scanner entrada = new Scanner(System.in);
 		String nombre;
 
-		
 		try {
 			// Abrimos el archivo para escritura.
 			FileWriter archivo = new FileWriter(NOMBRE_ARCHIVO);
-			
+
 			// Le asociamos un buffer en memoria para mejorar el rendimiento.
 			BufferedWriter buffer = new BufferedWriter(archivo);
 

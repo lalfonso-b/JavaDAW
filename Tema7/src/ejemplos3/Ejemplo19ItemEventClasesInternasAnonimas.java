@@ -35,7 +35,7 @@ public class Ejemplo19ItemEventClasesInternasAnonimas extends JFrame {
 		cmbAsignaturas.addItem("Lenguaje de marcas");
 
 		cmbAsignaturas.addItemListener(new ItemListener() {
-			
+
 			@Override
 			public void itemStateChanged(ItemEvent e) {
 

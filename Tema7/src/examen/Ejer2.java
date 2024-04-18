@@ -12,35 +12,34 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
 public class Ejer2 extends JFrame {
-	
 
 	public Ejer2() {
 		super("Potencia");
 		setSize(400, 300);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		
+
 		setLayout(new FlowLayout(FlowLayout.LEFT));
 		setLocationRelativeTo(null);
-		
+
 		JLabel lblPotencia = new JLabel("Ajuste la potencia (en CV):");
-		
+
 		JSlider sldPotencia = new JSlider(JSlider.HORIZONTAL, 0, 2000, 300);
 		sldPotencia.setMajorTickSpacing(500);
 		sldPotencia.setMinorTickSpacing(100);
 		sldPotencia.setPaintLabels(true);
 		sldPotencia.setPaintTicks(true);
 		sldPotencia.setPreferredSize(new Dimension(300, 40));
-		
+
 		JProgressBar prgPotencia = new JProgressBar(JProgressBar.VERTICAL, 0, 2000);
 		prgPotencia.setValue(300);
 		prgPotencia.setStringPainted(true);
 		prgPotencia.setForeground(Color.GREEN);
 		prgPotencia.setPreferredSize(new Dimension(50, 220));
-		
+
 		add(lblPotencia);
 		add(sldPotencia);
 		add(prgPotencia);
-		
+
 		sldPotencia.addChangeListener(new ChangeListener() {
 			@Override
 			public void stateChanged(ChangeEvent e) {

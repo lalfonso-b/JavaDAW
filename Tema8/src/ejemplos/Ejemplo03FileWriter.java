@@ -12,11 +12,10 @@ public class Ejemplo03FileWriter {
 		Scanner entrada = new Scanner(System.in);
 		String nombre;
 
-		
 		try {
 			// Abrimos el archivo para escritura.
 			FileWriter archivo = new FileWriter("ficheros/nombres.txt");
-			
+
 			// Le asociamos un buffer en memoria para mejorar el rendimiento.
 			BufferedWriter buffer = new BufferedWriter(archivo);
 

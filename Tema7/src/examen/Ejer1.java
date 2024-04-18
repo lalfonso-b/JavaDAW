@@ -20,10 +20,10 @@ public class Ejer1 extends JFrame {
 		super("Fotos aleatorias");
 		setSize(500, 380);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		
+
 		setLayout(new FlowLayout());
 		setLocationRelativeTo(null);
-		
+
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 			SwingUtilities.updateComponentTreeUI(this);
@@ -31,19 +31,19 @@ public class Ejer1 extends JFrame {
 				| UnsupportedLookAndFeelException e) {
 			e.printStackTrace();
 		}
-		
+
 		lblImagen = new JLabel(new ImageIcon("imgs/arbol01.png"));
-		
+
 		JButton btnSiguiente = new JButton("Siguiente");
 		btnSiguiente.setPreferredSize(new Dimension(100, 30));
-		
+
 		JButton btnReset = new JButton("Reset");
 		btnReset.setPreferredSize(new Dimension(100, 30));
-		
+
 		add(lblImagen);
 		add(btnSiguiente);
 		add(btnReset);
-		
+
 		btnSiguiente.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -70,10 +70,3 @@ public class Ejer1 extends JFrame {
 		new Ejer1();
 	}
 }
-
-
-
-
-
-
-

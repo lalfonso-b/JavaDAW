@@ -30,21 +30,21 @@ public class Ejemplo20KeyEvent extends JFrame {
 
 			@Override
 			public void keyReleased(KeyEvent e) {
-				
+
 			}
 
 			@Override
 			public void keyPressed(KeyEvent e) {
-				
+
 				int codigo = e.getKeyCode();
-				
-				if(codigo == KeyEvent.VK_UP) {
+
+				if (codigo == KeyEvent.VK_UP) {
 					lblTeclaPulsada.setText("Has pulsado la tecla FLECHA ARRIBA");
-				}else if(codigo == KeyEvent.VK_DOWN) {
+				} else if (codigo == KeyEvent.VK_DOWN) {
 					lblTeclaPulsada.setText("Has pulsado la tecla FLECHA ABAJO");
-				}else if(codigo == KeyEvent.VK_LEFT) {
+				} else if (codigo == KeyEvent.VK_LEFT) {
 					lblTeclaPulsada.setText("Has pulsado la tecla FLECHA IZQUIERDA");
-				}else if(codigo == KeyEvent.VK_RIGHT) {
+				} else if (codigo == KeyEvent.VK_RIGHT) {
 					lblTeclaPulsada.setText("Has pulsado la tecla FLECHA DERECHA");
 				}
 			}

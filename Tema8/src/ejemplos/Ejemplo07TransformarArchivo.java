@@ -2,6 +2,7 @@ package ejemplos;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -13,6 +14,8 @@ public class Ejemplo07TransformarArchivo {
 
 		final String NOMBRE_ARCHIVO_ORIGINAL = "ficheros/nombres.txt";
 		final String NOMBRE_ARCHIVO_TEMPORAL = "ficheros/nombres.tmp";
+
+		System.out.println("Copiando el archivo...");
 
 		try {
 			// Abrir el archivo original para lectura.
@@ -48,9 +51,15 @@ public class Ejemplo07TransformarArchivo {
 		}
 
 		// Eliminamos el archivo original.
+		System.out.println("Eliminando archivos temporales...");
+		File archivoOriginal = new File(NOMBRE_ARCHIVO_ORIGINAL);
+		archivoOriginal.delete();
 
 		// Cambiar el nombre al temporal para que se llame como el original.
+		File archivoTemporal = new File(NOMBRE_ARCHIVO_TEMPORAL);
+		archivoTemporal.renameTo(archivoOriginal);
 
+		System.out.println("Ok");
 	}
 
 }

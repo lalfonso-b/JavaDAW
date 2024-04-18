@@ -27,7 +27,7 @@ public class Ejer03b extends JFrame {
 
 		checkAvion = new JCheckBox("Billetes de avión", true);
 		checkAvion.addItemListener(new ItemListener() {
-			
+
 			@Override
 			public void itemStateChanged(ItemEvent e) {
 				actualizaPrecio();
@@ -36,7 +36,7 @@ public class Ejer03b extends JFrame {
 
 		checkAeropuerto = new JCheckBox("Transporte aeropuerto");
 		checkAeropuerto.addItemListener(new ItemListener() {
-			
+
 			@Override
 			public void itemStateChanged(ItemEvent e) {
 				actualizaPrecio();
@@ -45,7 +45,7 @@ public class Ejer03b extends JFrame {
 
 		checkHotel = new JCheckBox("Estancia en el hotel");
 		checkHotel.addItemListener(new ItemListener() {
-			
+
 			@Override
 			public void itemStateChanged(ItemEvent e) {
 				actualizaPrecio();
@@ -54,7 +54,7 @@ public class Ejer03b extends JFrame {
 
 		checkPensionCompleta = new JCheckBox("Pensión completa");
 		checkPensionCompleta.addItemListener(new ItemListener() {
-			
+
 			@Override
 			public void itemStateChanged(ItemEvent e) {
 				actualizaPrecio();
@@ -73,26 +73,26 @@ public class Ejer03b extends JFrame {
 		setVisible(true);
 
 	}
-	
+
 	private void actualizaPrecio() {
-		
+
 		int precioTotal = 0;
 
-        if (checkAvion.isSelected()) {
-            precioTotal += 120;
-        }
-        if (checkAeropuerto.isSelected()) {
-            precioTotal += 40;
-        }
-        if (checkHotel.isSelected()) {
-            precioTotal += 180;
-        }
-        if (checkPensionCompleta.isSelected()) {
-            precioTotal += 70;
-        }
+		if (checkAvion.isSelected()) {
+			precioTotal += 120;
+		}
+		if (checkAeropuerto.isSelected()) {
+			precioTotal += 40;
+		}
+		if (checkHotel.isSelected()) {
+			precioTotal += 180;
+		}
+		if (checkPensionCompleta.isSelected()) {
+			precioTotal += 70;
+		}
 
-        lblPrecioTotal.setText("Precio total: " + precioTotal + " €");
-		
+		lblPrecioTotal.setText("Precio total: " + precioTotal + " €");
+
 	}
 
 	public static void main(String[] args) {
