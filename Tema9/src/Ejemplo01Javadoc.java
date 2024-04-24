@@ -1,5 +1,4 @@
 
-
 import java.awt.FlowLayout;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
@@ -8,7 +7,7 @@ import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class Ejer03b extends JFrame {
+public class Ejemplo01Javadoc extends JFrame {
 
 	private JCheckBox checkAvion;
 	private JCheckBox checkAeropuerto;
@@ -16,7 +15,7 @@ public class Ejer03b extends JFrame {
 	private JCheckBox checkPensionCompleta;
 	private JLabel lblPrecioTotal;
 
-	public Ejer03b() {
+	public Ejemplo01Javadoc() {
 
 		super("Viajes Gorrión");
 		setSize(220, 220);
@@ -96,7 +95,7 @@ public class Ejer03b extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new Ejer03b();
+		new Ejemplo01Javadoc();
 
 	}
 
