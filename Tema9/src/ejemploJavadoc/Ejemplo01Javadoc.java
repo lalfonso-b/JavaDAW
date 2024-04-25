@@ -1,3 +1,4 @@
+package ejemploJavadoc;
 
 import java.awt.FlowLayout;
 import java.awt.event.ItemEvent;
@@ -155,6 +156,10 @@ public class Ejemplo01Javadoc extends JFrame {
 		return null;
 	}
 
+	/**
+	 * Método que se ejecuta al arrancar la aplicación
+	 * @param args Argumentos introducidos en la terminal
+	 */
 	public static void main(String[] args) {
 		new Ejemplo01Javadoc();
 
