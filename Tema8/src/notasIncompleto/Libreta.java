@@ -27,7 +27,7 @@ public class Libreta {
 	public void addNota(Nota nota) {
 
 		/*
-		 * TODO: Añadir después de la última nota del array la nota que se nos pasa como
+		 * Añadir después de la última nota del array la nota que se nos pasa como
 		 * parámetro. Utilizar el valor de la variable numNotas. Actualizar después el
 		 * valor de numNotas. En caso de que hayamos llegado al máximo de notas, no
 		 * hacer nada.
@@ -65,7 +65,7 @@ public class Libreta {
 	public void leerNotas() {
 
 		/*
-		 * TODO: Leer todas las filas del archivo, y rellenar el array notas[]. Si no se
+		 * Leer todas las filas del archivo, y rellenar el array notas[]. Si no se
 		 * encuentra el archivo, hacer que se muestre el mensaje indicado en el
 		 * enunciado de la práctica. Si se produce otro tipo de excepción, mostrar un
 		 * JOptionPane explicándolo.
@@ -85,7 +85,7 @@ public class Libreta {
 
 				if (linea.length() >= 7) {
 					titulo = linea.substring(7);
-				}else {
+				} else {
 					return;
 				}
 
@@ -129,6 +129,25 @@ public class Libreta {
 		 * que se guardarán debe ser el que aparece en el enunciado de la práctica. Si
 		 * se produce una excepción, se mostrará el error que aparece en el enunciado.
 		 */
+
+		try {
+
+			BufferedWriter bw = new BufferedWriter(new FileWriter(NOMBRE_ARCHIVO));
+
+			for (int i = 0; i < numNotas; i++) {
+
+				bw.write("TITULO=" + notas[i].getTitulo() + "\n" + "DESCRIPCION=" + notas[i].getDescripcion() + "\n");
+
+			}
+
+			bw.close();
+
+		} catch (IOException e) {
+
+			JOptionPane.showMessageDialog(null, "No se ha podido guardar el archivo de tareas " + NOMBRE_ARCHIVO,
+					"Error de E/S", JOptionPane.ERROR_MESSAGE);
+
+		}
 
 	}
 

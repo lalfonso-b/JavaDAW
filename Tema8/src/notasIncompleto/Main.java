@@ -165,6 +165,12 @@ public class Main extends JFrame implements ListSelectionListener {
 
 		cargarNotas();
 
+		// CÓDIGO DE PRUEBA PARA guardarNotas()
+//		libreta.addNota(new Nota("Examen Programación", "Estudiar el tema 9"));
+//		libreta.addNota(new Nota("Examen Lenguajes", "Estudiar el tema 6"));
+//		libreta.addNota(new Nota("FOL", "Entregar trabajo tema 8"));
+//		libreta.guardarNotas();
+
 	}
 
 	private void cargarNotas() {
