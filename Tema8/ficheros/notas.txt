@@ -1,8 +1,0 @@
-TITULO=Compra de la semana
-DESCRIPCION=Comprar el plutonio para el condensador de fluzodddd
-TITULO=Examen Programación
-DESCRIPCION=Estudiar el tema 9
-TITULO=Examen Lenguajes
-DESCRIPCION=Estudiar el tema 6
-TITULO=FOL
-DESCRIPCION=Entregar trabajo tema 8

@@ -37,7 +37,6 @@ public class Main extends JFrame implements ListSelectionListener {
 
 	public static void main(String[] args) {
 		new Main();
-		// Prueba de leerNotas()
 	}
 
 	public Main() {
@@ -169,6 +168,9 @@ public class Main extends JFrame implements ListSelectionListener {
 //		libreta.addNota(new Nota("Examen Programación", "Estudiar el tema 9"));
 //		libreta.addNota(new Nota("Examen Lenguajes", "Estudiar el tema 6"));
 //		libreta.addNota(new Nota("FOL", "Entregar trabajo tema 8"));
+//		
+//		libreta.delNota(2);
+//		
 //		libreta.guardarNotas();
 
 	}
