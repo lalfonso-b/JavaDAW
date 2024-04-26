@@ -2,7 +2,6 @@ package notasIncompleto;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -55,10 +54,16 @@ public class Libreta {
 	public void delNota(int posicion) {
 
 		/*
-		 * TODO: Eliminar el elemento del array notas[] que ocupa la posición indicada.
-		 * Para ello, mueve hacia arriba todos los elementos que vengan a continuación
-		 * una posición, y actualiza la variable numNotas.
+		 * Eliminar el elemento del array notas[] que ocupa la posición indicada. Para
+		 * ello, mueve hacia arriba todos los elementos que vengan a continuación una
+		 * posición, y actualiza la variable numNotas.
 		 */
+
+		for (int i = posicion; i < numNotas - 1; i++) {
+			notas[i] = notas[i + 1];
+		}
+
+		numNotas--;
 
 	}
 
