@@ -1,4 +1,4 @@
-package notasIncompleto;
+package blocDeNotas2;
 
 public class Nota {
 

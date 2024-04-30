@@ -1,4 +1,4 @@
-package notasIncompleto;
+package blocDeNotas;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -158,6 +158,14 @@ public class Libreta {
 
 	public int getNumNotas() {
 		return numNotas;
+	}
+	
+	public boolean hayEspacio() {
+		if(numNotas < MAX_NOTAS) {
+			return true;
+		}
+		
+		return false;
 	}
 
 }

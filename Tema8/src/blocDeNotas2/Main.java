@@ -1,4 +1,4 @@
-package notasIncompleto;
+package blocDeNotas2;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -232,6 +232,24 @@ public class Main extends JFrame implements ListSelectionListener {
 		 * del JList. Seleccionar la nueva nota en el JList. Borrar la casilla de título
 		 * y pasarle el foco a la casilla de título.
 		 */
+
+		if (!libreta.hayEspacio()) {
+			return;
+		}
+
+		Nota nota = new Nota("", "");
+
+		libreta.addNota(nota);
+
+		modeloLista.addElement("Nueva nota");
+		System.out.println(modeloLista.getSize());
+
+		txtTitulo.setText("");
+		txtDescripcion.setText("");
+
+		txtTitulo.requestFocus();
+
+		lstTitulos.setSelectedIndex(modeloLista.getSize() - 1);
 
 	}
 
