@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="prac2.Componente"/>
     <fullyQualifiedTypeName name="ejemplos.Ejemplo02JButton"/>
     <fullyQualifiedTypeName name="ejemplos.Ejemplo03JTextField"/>
     <fullyQualifiedTypeName name="Paquete"/>
@@ -59,5 +58,6 @@
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="javax.swing.JFileChooser"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
