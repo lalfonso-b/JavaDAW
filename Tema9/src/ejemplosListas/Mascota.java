@@ -2,12 +2,12 @@ package ejemplosListas;
 
 import java.util.Objects;
 
-public class Mascotas {
+public class Mascota {
 	private String nombre;
 	private String raza;
 	private int edad;
 
-	public Mascotas(String nombre, String raza, int edad) {
+	public Mascota(String nombre, String raza, int edad) {
 		super();
 		this.nombre = nombre;
 		this.raza = raza;
@@ -45,26 +45,33 @@ public class Mascotas {
 		}
 
 		// Casting de objeto obj para poder después comparar:
-		Mascotas other = (Mascotas) obj;
+		Mascota mascota = (Mascota) obj;
 
-		// Comparación:
-		return edad == other.edad && Objects.equals(nombre, other.nombre) && Objects.equals(raza, other.raza);
+		return nombre.equals(mascota.nombre) && edad == mascota.edad && raza.equals(mascota.raza);
+
+//		Alternativa al return de arriba:
+//		
+//		if(nombre.equals(mascota.nombre) && edad == mascota.edad && raza.equals(mascota.raza)) {
+//		return true;
+//		}
+//	
+//		return false;
 
 	}
 
 	public static void main(String[] args) {
 
 		// Creamos dos objetos de tipo Mascotas con los mismos atributos
-		Mascotas mascota1 = new Mascotas("Jazz", "Labrador", 10);
-		Mascotas mascota2 = new Mascotas("Jazz", "Labrador", 10);
+		Mascota mascota1 = new Mascota("Jazz", "Labrador", 10);
+		Mascota mascota2 = new Mascota("Jazz", "Labrador", 10);
 
 		// Probamos si los objetos son iguales usando el método equals()
 		boolean sonIguales = mascota1.equals(mascota2);
 		System.out.println("¿Las mascotas son iguales? " + sonIguales); // Debería salir "true"
 
 		// Creamos dos objetos de tipo Mascotas con diferentes atributos
-		Mascotas mascota3 = new Mascotas("Funky", "Pitbull", 3);
-		Mascotas mascota4 = new Mascotas("Jazz", "Labrador", 10);
+		Mascota mascota3 = new Mascota("Funky", "Pitbull", 3);
+		Mascota mascota4 = new Mascota("Jazz", "Labrador", 10);
 
 		// Probamos si los objetos son iguales usando el método equals
 		sonIguales = mascota3.equals(mascota4);

@@ -72,9 +72,10 @@ public class Libreta {
 		 * los datos de los comentarios del archivo.
 		 */
 
+		BufferedReader br = null;
 		try {
 
-			BufferedReader br = new BufferedReader(new FileReader(NOMBRE_ARCHIVO));
+			br = new BufferedReader(new FileReader(NOMBRE_ARCHIVO));
 			String linea = br.readLine();
 			String titulo;
 			while (linea != null) {
@@ -100,8 +101,6 @@ public class Libreta {
 				linea = br.readLine();
 			}
 
-			br.close();
-
 		} catch (FileNotFoundException e) {
 			JOptionPane.showMessageDialog(null, "No se ha encontrado el archivo " + NOMBRE_ARCHIVO,
 					"Archivo de tareas no encontrado", JOptionPane.WARNING_MESSAGE);
@@ -109,6 +108,13 @@ public class Libreta {
 		} catch (IOException e) {
 			JOptionPane.showMessageDialog(null, "No se ha podido leer el archivo de tareas" + NOMBRE_ARCHIVO,
 					"Error de E/S", JOptionPane.ERROR_MESSAGE);
+		} finally {
+			try {
+				br.close();
+			} catch (IOException e) {
+				JOptionPane.showMessageDialog(null, "No se ha podido leer el archivo de tareas" + NOMBRE_ARCHIVO,
+						"Error de E/S", JOptionPane.ERROR_MESSAGE);
+			}
 		}
 	}
 
