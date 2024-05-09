@@ -4,11 +4,25 @@ public class Ejemplo04ComparacionTiempos {
 
 	public static void main(String[] args) {
 
-		int[] edades = { 10, 20, 30, 40, 50, 70, 80, 90 };
+		int[] edades = new int[1000000000];
 
-		int x = 20;
+		for (int i = 0; i < edades.length; i++) {
+			edades[i] = i * 10;
+		}
+
+		int x = 345000;
 		int pos = busquedaBinaria(x, edades);
+		
+		System.out.println("--- Búsqueda binaria ---");
+		if (pos != -1) {
+			System.out.println("El número " + x + " está en la posición " + pos + ".");
+		} else {
+			System.out.println("El número " + x + " no se encuentra en el array.");
+		}
 
+		pos = busquedaSecuencial(x, edades);
+
+		System.out.println("\n--- Búsqueda secuencial ---");
 		if (pos != -1) {
 			System.out.println("El número " + x + " está en la posición " + pos + ".");
 		} else {
@@ -18,6 +32,13 @@ public class Ejemplo04ComparacionTiempos {
 	}
 
 	private static int busquedaBinaria(int x, int[] numeros) {
+		
+		// Instante en que empezamos a medir el tiempo. Esta función nos devuelve el tiempo en milisegundos que ha pasado desde el 1 de enero de 1970.
+		long tiempoInicio = System.currentTimeMillis();
+		
+		
+		// Instante en que termina el método.
+		long tiempoFin;
 
 		int i = 0; // Extremo izquierdo de búsqueda
 		int f = numeros.length - 1; // Extremo derecho de búsqueda
@@ -31,6 +52,11 @@ public class Ejemplo04ComparacionTiempos {
 			// Comparamos el valor en m con el valor buscado.
 			if (x == numeros[m]) {
 				// Hemos encontrado el valor buscado.
+				
+				tiempoFin = System.currentTimeMillis();
+				System.out.println(tiempoInicio);
+				System.out.println(tiempoFin);
+				System.out.println("Tiempo de ejecución: " + (tiempoFin-tiempoInicio) + " ms");
 				return m;
 			} else if (x < numeros[m]) {
 				f = m - 1;
@@ -40,21 +66,25 @@ public class Ejemplo04ComparacionTiempos {
 
 		}
 
+		tiempoFin = System.currentTimeMillis();
+		
+		System.out.println(tiempoInicio);
+		System.out.println(tiempoFin);
+		System.out.println("Tiempo de ejecución: " + (tiempoFin-tiempoInicio) + " ms");
 		return -1;
 
 	}
-	
+
 	private static int busquedaSecuencial(int x, int[] numeros) {
-		
-		
-		
+
+		for (int i = 0; i < numeros.length; i++) {
+			if (numeros[i] == x) {
+				return i;
+			}
+		}
+
+		return -1;
+
 	}
 
 }
-
-
-
-
-
-
-
