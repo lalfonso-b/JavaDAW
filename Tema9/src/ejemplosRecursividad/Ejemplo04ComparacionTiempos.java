@@ -1,13 +1,13 @@
 package ejemplosRecursividad;
 
-public class Ejemplo03BusquedaBinaria {
+public class Ejemplo04ComparacionTiempos {
 
 	public static void main(String[] args) {
 
 		int[] edades = { 10, 20, 30, 40, 50, 70, 80, 90 };
 
 		int x = 20;
-		int pos = busqueda(x, edades);
+		int pos = busquedaBinaria(x, edades);
 
 		if (pos != -1) {
 			System.out.println("El número " + x + " está en la posición " + pos + ".");
@@ -17,7 +17,7 @@ public class Ejemplo03BusquedaBinaria {
 
 	}
 
-	private static int busqueda(int x, int[] numeros) {
+	private static int busquedaBinaria(int x, int[] numeros) {
 
 		int i = 0; // Extremo izquierdo de búsqueda
 		int f = numeros.length - 1; // Extremo derecho de búsqueda
@@ -43,5 +43,18 @@ public class Ejemplo03BusquedaBinaria {
 		return -1;
 
 	}
+	
+	private static int busquedaSecuencial(int x, int[] numeros) {
+		
+		
+		
+	}
 
 }
+
+
+
+
+
+
+
