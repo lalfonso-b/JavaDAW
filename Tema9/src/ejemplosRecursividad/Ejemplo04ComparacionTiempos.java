@@ -34,7 +34,7 @@ public class Ejemplo04ComparacionTiempos {
 	private static int busquedaBinaria(int x, int[] numeros) {
 
 		// Instante en que empezamos a medir el tiempo. Esta función nos devuelve el
-		// tiempo en milisegundos que ha pasado desde el 1 de enero de 1970.
+		// tiempo en nanosegundos que ha pasado desde el 1 de enero de 1970.
 		long tiempoInicio = System.nanoTime();
 
 		// Instante en que termina el método.
@@ -76,7 +76,7 @@ public class Ejemplo04ComparacionTiempos {
 	private static int busquedaSecuencial(int x, int[] numeros) {
 
 		// Instante en que empezamos a medir el tiempo. Esta función nos devuelve el
-		// tiempo en milisegundos que ha pasado desde el 1 de enero de 1970.
+		// tiempo en nanosegundos que ha pasado desde el 1 de enero de 1970.
 		long tiempoInicio = System.nanoTime();
 
 		// Instante en que termina el método.
