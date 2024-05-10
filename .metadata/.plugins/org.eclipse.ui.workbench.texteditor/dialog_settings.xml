@@ -6,11 +6,13 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="ListSelection"/>
+		<item key="selection" value="nanoTime"/>
 		<list key="findhistory">
+			<item value="currentTimeMillis"/>
 			<item value="listselection"/>
 		</list>
 		<list key="replacehistory">
+			<item value="nanoTime"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
