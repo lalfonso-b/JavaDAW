@@ -4,15 +4,15 @@ public class Ejemplo04ComparacionTiempos {
 
 	public static void main(String[] args) {
 
-		int[] edades = new int[1000000000];
+		int[] edades = new int[100_000_000];
 
 		for (int i = 0; i < edades.length; i++) {
 			edades[i] = i * 10;
 		}
 
-		int x = 345000;
+		int x = (int) (Math.random() * 100_000_000);
 		int pos = busquedaBinaria(x, edades);
-		
+
 		System.out.println("--- Búsqueda binaria ---");
 		if (pos != -1) {
 			System.out.println("El número " + x + " está en la posición " + pos + ".");
@@ -32,11 +32,11 @@ public class Ejemplo04ComparacionTiempos {
 	}
 
 	private static int busquedaBinaria(int x, int[] numeros) {
-		
-		// Instante en que empezamos a medir el tiempo. Esta función nos devuelve el tiempo en milisegundos que ha pasado desde el 1 de enero de 1970.
+
+		// Instante en que empezamos a medir el tiempo. Esta función nos devuelve el
+		// tiempo en milisegundos que ha pasado desde el 1 de enero de 1970.
 		long tiempoInicio = System.nanoTime();
-		
-		
+
 		// Instante en que termina el método.
 		long tiempoFin;
 
@@ -52,11 +52,9 @@ public class Ejemplo04ComparacionTiempos {
 			// Comparamos el valor en m con el valor buscado.
 			if (x == numeros[m]) {
 				// Hemos encontrado el valor buscado.
-				
+
 				tiempoFin = System.nanoTime();
-				System.out.println(tiempoInicio);
-				System.out.println(tiempoFin);
-				System.out.println("Tiempo de ejecución: " + (tiempoFin-tiempoInicio) + " ns");
+				System.out.println("Tiempo de ejecución: " + (tiempoFin - tiempoInicio) + " ns");
 				return m;
 			} else if (x < numeros[m]) {
 				f = m - 1;
@@ -67,22 +65,33 @@ public class Ejemplo04ComparacionTiempos {
 		}
 
 		tiempoFin = System.nanoTime();
-		
+
 		System.out.println(tiempoInicio);
 		System.out.println(tiempoFin);
-		System.out.println("Tiempo de ejecución: " + (tiempoFin-tiempoInicio) + " ns");
+		System.out.println("Tiempo de ejecución: " + (tiempoFin - tiempoInicio) + " ns");
 		return -1;
 
 	}
 
 	private static int busquedaSecuencial(int x, int[] numeros) {
 
+		// Instante en que empezamos a medir el tiempo. Esta función nos devuelve el
+		// tiempo en milisegundos que ha pasado desde el 1 de enero de 1970.
+		long tiempoInicio = System.nanoTime();
+
+		// Instante en que termina el método.
+		long tiempoFin;
+
 		for (int i = 0; i < numeros.length; i++) {
 			if (numeros[i] == x) {
+				tiempoFin = System.nanoTime();
+				System.out.println("Tiempo de ejecución: " + (tiempoFin - tiempoInicio) + " ns");
 				return i;
 			}
 		}
 
+		tiempoFin = System.nanoTime();
+		System.out.println("Tiempo de ejecución: " + (tiempoFin - tiempoInicio) + " ns");
 		return -1;
 
 	}
