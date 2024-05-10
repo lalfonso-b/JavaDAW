@@ -34,7 +34,7 @@ public class Ejemplo04ComparacionTiempos {
 	private static int busquedaBinaria(int x, int[] numeros) {
 		
 		// Instante en que empezamos a medir el tiempo. Esta función nos devuelve el tiempo en milisegundos que ha pasado desde el 1 de enero de 1970.
-		long tiempoInicio = System.currentTimeMillis();
+		long tiempoInicio = System.nanoTime();
 		
 		
 		// Instante en que termina el método.
@@ -53,10 +53,10 @@ public class Ejemplo04ComparacionTiempos {
 			if (x == numeros[m]) {
 				// Hemos encontrado el valor buscado.
 				
-				tiempoFin = System.currentTimeMillis();
+				tiempoFin = System.nanoTime();
 				System.out.println(tiempoInicio);
 				System.out.println(tiempoFin);
-				System.out.println("Tiempo de ejecución: " + (tiempoFin-tiempoInicio) + " ms");
+				System.out.println("Tiempo de ejecución: " + (tiempoFin-tiempoInicio) + " ns");
 				return m;
 			} else if (x < numeros[m]) {
 				f = m - 1;
@@ -66,11 +66,11 @@ public class Ejemplo04ComparacionTiempos {
 
 		}
 
-		tiempoFin = System.currentTimeMillis();
+		tiempoFin = System.nanoTime();
 		
 		System.out.println(tiempoInicio);
 		System.out.println(tiempoFin);
-		System.out.println("Tiempo de ejecución: " + (tiempoFin-tiempoInicio) + " ms");
+		System.out.println("Tiempo de ejecución: " + (tiempoFin-tiempoInicio) + " ns");
 		return -1;
 
 	}
