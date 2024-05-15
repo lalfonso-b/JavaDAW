@@ -2,5 +2,6 @@
 <dirs>
     <entry loc="/home/csogorb/Escritorio/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047" stamp="1694095530000"/>
     <entry loc="/usr/lib/jvm/java-17-openjdk-amd64" stamp="1709104916093"/>
+    <entry loc="/usr/lib/jvm/java-11-openjdk-amd64" stamp="1715762519680"/>
     <entry loc="/home/csogorb/Escritorio/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre" stamp="1694095530000"/>
 </dirs>
