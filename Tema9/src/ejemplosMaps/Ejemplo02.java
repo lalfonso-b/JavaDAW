@@ -33,12 +33,31 @@ public class Ejemplo02 {
 		personas.remove(dni);
 		
 		// Ver en forma de tabla la información del mapa.
+		System.out.println("Contenido del mapa:");
+		for(String clave : personas.keySet()) {
+			System.out.println(clave + " -> " + personas.get(clave));
+		}
+		
+		// Lista de nombres en el mapa.
+		System.out.println("\nNombres guardados en el mapa:");
+		for(String nombre : personas.values()) {
+			System.out.println(" - " + nombre);
+		}
 		
 		
 		
 	}
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
