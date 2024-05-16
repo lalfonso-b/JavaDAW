@@ -42,6 +42,11 @@ public class Cliente {
 				//Objects.equals(apellidos, cliente.apellidos) && Objects.equals(dni, cliente.dni) && Objects.equals(nombre, cliente.nombre);
 	
 	}
+	
+	@Override
+	public String toString() {
+		return nombre + " " + apellidos + " (" + dni + ")";
+	}
 
 	public String getApellidos() {
 		return apellidos;

@@ -12,6 +12,11 @@ public class Ficha {
 		this.visa = visa;
 	}
 
+	@Override
+	public String toString() {
+		return "Año de nacimiento: " + anyoNacimiento + "\nNacionalidad: " + nacionalidad + "\nVISA: " + visa;
+	}
+
 	public int getAnyoNacimiento() {
 		return anyoNacimiento;
 	}
