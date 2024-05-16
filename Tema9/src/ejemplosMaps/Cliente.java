@@ -30,19 +30,20 @@ public class Cliente {
 		if (getClass() != obj.getClass()) {
 			return false;
 		}
-		
+
 		Cliente cliente = (Cliente) obj;
-		
-	if(apellidos.equals(cliente.apellidos) && nombre.equals(cliente.nombre) && dni.equals(cliente.dni)) {
-		return true;
+
+		if (apellidos.equals(cliente.apellidos) && nombre.equals(cliente.nombre) && dni.equals(cliente.dni)) {
+			return true;
+		}
+
+		return false;
+
+		// Objects.equals(apellidos, cliente.apellidos) && Objects.equals(dni,
+		// cliente.dni) && Objects.equals(nombre, cliente.nombre);
+
 	}
 
-	return false;
-	
-				//Objects.equals(apellidos, cliente.apellidos) && Objects.equals(dni, cliente.dni) && Objects.equals(nombre, cliente.nombre);
-	
-	}
-	
 	@Override
 	public String toString() {
 		return nombre + " " + apellidos + " (" + dni + ")";
