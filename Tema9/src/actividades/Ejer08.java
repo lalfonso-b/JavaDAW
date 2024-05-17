@@ -11,4 +11,24 @@ Ayuda: Puedes aplicar las operaciones módulo (n%10) y división (n/10) para des
  */
 public class Ejer08 {
 
+	public static void main(String[] args) {
+
+		System.out.println(sumar(613));
+
+	}
+
+	private static int sumar(int n) {
+
+		if (n == 0) {
+
+			// Caso base
+			return n;
+
+		}
+
+		// Caso Recursivo
+		return n % 10 + sumar(n / 10);
+
+	}
+
 }
