@@ -20,6 +20,7 @@ import javax.swing.JLabel;
  * <li>Pensión completa</li>
  * </ul>
  * Esta clase utiliza la clase {@link Extras}
+ * 
  * @author Carlos Sogorb
  * @version 1.0, 24 May 2024
  * @see Extras
@@ -158,6 +159,7 @@ public class Ejemplo01Javadoc extends JFrame {
 
 	/**
 	 * Método que se ejecuta al arrancar la aplicación
+	 * 
 	 * @param args Argumentos introducidos en la terminal
 	 */
 	public static void main(String[] args) {

@@ -20,7 +20,7 @@ public class Ejemplo06BorradoRecursivo {
 
 		}
 
-		// Caso base: file es un archivo o una carpeta vacía y, 
+		// Caso base: file es un archivo o una carpeta vacía y,
 		// por tanto, puedo borrarlo con el método delete() de File.
 		System.out.println("Borrando " + file.toString());
 		file.delete();

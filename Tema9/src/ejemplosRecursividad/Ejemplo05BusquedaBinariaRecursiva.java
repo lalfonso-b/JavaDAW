@@ -14,7 +14,7 @@ public class Ejemplo05BusquedaBinariaRecursiva {
 	// Devuelve la posición de x en el array numeros, buscando entre
 	// las posiciones i y f.
 	private static int busqueda(int[] numeros, int x, int i, int f) {
-		
+
 		System.out.println("Buscando " + x + " entre las posiciones " + i + " y " + f + ".");
 
 		if (f < i) {

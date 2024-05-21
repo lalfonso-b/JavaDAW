@@ -5,7 +5,7 @@ public class Ejer05 {
 	public static void main(String[] args) {
 
 		int n = 5;
-		System.out.println("La suma de 1 a "+ n + " es " + sumar(n));
+		System.out.println("La suma de 1 a " + n + " es " + sumar(n));
 
 	}
 

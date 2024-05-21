@@ -30,16 +30,15 @@ public class Mascota {
 		if (getClass() != obj.getClass()) {
 			return false;
 		}
-		
+
 		Mascota mascota = (Mascota) obj;
-		
-		if(id == mascota.id && nombre.equals(mascota.nombre) 
-				&& especie.equals(mascota.especie)){
+
+		if (id == mascota.id && nombre.equals(mascota.nombre) && especie.equals(mascota.especie)) {
 			return true;
 		}
 
 		return false;
-		
+
 //		return Objects.equals(especie, mascota.especie) && id == mascota.id && Objects.equals(nombre, mascota.nombre);
 	}
 

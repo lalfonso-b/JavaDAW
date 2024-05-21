@@ -17,12 +17,14 @@ public class Ejer04b {
 
 		}
 
-		// Restamos num2 de num1 y llamamos recursivamente a la función con los nuevos valores
+		// Restamos num2 de num1 y llamamos recursivamente a la función con los nuevos
+		// valores
 
 		return calculoDivision(num1 - num2, num2, numDivisiones + 1);
 
 		// Alternativa
-		// return num1 < num2 ? numDivisiones : calculoDivision(num1 - num2, num2, numDivisiones + 1);
+		// return num1 < num2 ? numDivisiones : calculoDivision(num1 - num2, num2,
+		// numDivisiones + 1);
 	}
 
 }

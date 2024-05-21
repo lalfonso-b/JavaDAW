@@ -159,12 +159,12 @@ public class Libreta {
 	public int getNumNotas() {
 		return numNotas;
 	}
-	
+
 	public boolean hayEspacio() {
-		if(numNotas < MAX_NOTAS) {
+		if (numNotas < MAX_NOTAS) {
 			return true;
 		}
-		
+
 		return false;
 	}
 

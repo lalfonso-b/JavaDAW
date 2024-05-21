@@ -63,13 +63,11 @@ public class Ejemplo01 {
 
 		System.out.println("\n¿Está vacío nuestro ArrayList? " + idiomas.isEmpty());
 
-		System.out.println("\nHasta ahora tenemos " + idiomas.size() 
-			+ " idiomas guardados en el ArrayList.");
-		
+		System.out.println("\nHasta ahora tenemos " + idiomas.size() + " idiomas guardados en el ArrayList.");
+
 		System.out.println("\nBorramos la lista completa.");
 		idiomas.clear();
-		System.out.println("\nHasta ahora tenemos " + idiomas.size() 
-			+ " idiomas guardados en el ArrayList.");
+		System.out.println("\nHasta ahora tenemos " + idiomas.size() + " idiomas guardados en el ArrayList.");
 
 	}
 

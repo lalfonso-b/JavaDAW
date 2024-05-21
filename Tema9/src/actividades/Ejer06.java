@@ -4,7 +4,7 @@ public class Ejer06 {
 
 	public static void main(String[] args) {
 
-		int[] array = { -2,1, 9, 5, 7, 0,3, 2, 8, 6 };
+		int[] array = { -2, 1, 9, 5, 7, 0, 3, 2, 8, 6 };
 
 		int min = min(array, array.length);
 
@@ -24,13 +24,13 @@ public class Ejer06 {
 
 		// Caso recursivo.
 
-		return Math.min(min(numeros, numElementos - 1), numeros[numElementos - 1]);
+		return minimo(min(numeros, numElementos - 1), numeros[numElementos - 1]);
 
 	}
 
+	// En vez de este método podríamos usar Math.min().
+	private static int minimo(int a, int b) {
+		return a < b ? a : b;
+	}
+
 }
-
-
-
-
-

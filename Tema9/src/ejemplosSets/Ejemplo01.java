@@ -45,7 +45,7 @@ public class Ejemplo01 {
 			System.out.println("\nEl conjunto de nombres está vacío");
 			return;
 		}
-		
+
 		System.out.println("\nNombres almacenados:");
 		for (String palabra : nombres) {
 			System.out.println(" * " + palabra);

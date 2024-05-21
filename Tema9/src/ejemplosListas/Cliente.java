@@ -41,8 +41,7 @@ public class Cliente {
 
 		Cliente cliente = (Cliente) obj;
 
-		if (apellidos.equals(cliente.getApellidos()) 
-				&& nombre.equals(cliente.getNombre())
+		if (apellidos.equals(cliente.getApellidos()) && nombre.equals(cliente.getNombre())
 				&& dni.equals(cliente.getDni())) {
 			return true;
 		}
