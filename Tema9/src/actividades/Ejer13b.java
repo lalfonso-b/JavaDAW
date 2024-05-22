@@ -1,10 +1,10 @@
 package actividades;
 
-public class Ejer13 {
+public class Ejer13b {
 
 	public static void main(String[] args) {
 
-		String frase = "   A  L B      G    A   ";
+		String frase = "AL B G A";
 		frase = quitarEspacios(frase);
 
 		System.out.println(esPalindromo(frase, 0, frase.length() - 1));
@@ -13,9 +13,17 @@ public class Ejer13 {
 
 	private static String quitarEspacios(String frase) {
 
-		String fraseSinEspacios = frase.replace(" ", "");
-		System.out.println(fraseSinEspacios);
-		
+		// Creamos un array con las palabras sueltas de la frase.
+		String[] palabras = frase.split(" ");
+
+		String fraseSinEspacios = "";
+
+		// Concatenamos las palabras del array para obtener la frase original sin
+		// espacios.
+		for (String palabra : palabras) {
+			fraseSinEspacios = fraseSinEspacios + palabra;
+		}
+
 		return fraseSinEspacios;
 
 	}
