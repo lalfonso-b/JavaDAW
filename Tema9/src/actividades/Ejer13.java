@@ -15,7 +15,7 @@ public class Ejer13 {
 
 		String fraseSinEspacios = frase.replace(" ", "");
 		System.out.println(fraseSinEspacios);
-		
+
 		return fraseSinEspacios;
 
 	}
