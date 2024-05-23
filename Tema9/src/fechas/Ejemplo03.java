@@ -26,22 +26,9 @@ public class Ejemplo03 {
 
 		LocalDateTime instante1 = LocalDateTime.parse("2024-05-22T17:34:00");
 		LocalDateTime instante2 = LocalDateTime.of(fecha1, hora1);
-		
-		System.out.println("¿instante1 es anterior a instante2? " + 
-				instante1.isBefore(instante2));
+
+		System.out.println("¿instante1 es anterior a instante2? " + instante1.isBefore(instante2));
 
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

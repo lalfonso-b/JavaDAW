@@ -21,11 +21,11 @@ public class Ejemplo04 {
 				fechas[i] = LocalDate.parse(entrada.nextLine());
 
 			}
-		}catch(DateTimeParseException e) {
+		} catch (DateTimeParseException e) {
 			System.out.println("Error: fecha no válida.");
 			System.exit(0);
 		}
-		
+
 		// Mostrar por terminal la lista de fechas.
 
 		System.out.println("\nFechas introducidas:");
