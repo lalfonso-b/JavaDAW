@@ -58,9 +58,7 @@ public class Ejemplo04 {
 			for (int j = i + 1; j < fechas.length; j++) {
 
 				if (fechas[j].isBefore(fechas[posMin])) {
-
 					posMin = j;
-
 				}
 
 			}
@@ -78,9 +76,7 @@ public class Ejemplo04 {
 		System.out.println("\nLista de fechas ordenadas:");
 
 		for (int i = 0; i < fechas.length; i++) {
-
 			System.out.println("Fecha " + (i + 1) + ": " + fechas[i]);
-
 		}
 
 	}
