@@ -52,7 +52,10 @@ public class VentanaPrincipal extends JFrame {
 	}
 
 	private void abrirVentana() {
-
+		
+		VentanaSecundaria ventana = new VentanaSecundaria();
+		ventana.setLocationRelativeTo(this);
+		
 	}
 
 	public static void main(String[] args) {
