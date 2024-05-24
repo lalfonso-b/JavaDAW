@@ -13,6 +13,7 @@ public class VentanaSecundaria extends JFrame {
 
 	private JTextField txtNombre;
 	private JTextField txtApellido;
+	private Callback callback;
 
 	public VentanaSecundaria() {
 
@@ -33,7 +34,8 @@ public class VentanaSecundaria extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-
+				callback.actualizarVentana(new Identidad(txtApellido.getText(), txtNombre.getText()));
+				dispose();
 			}
 		});
 
@@ -46,7 +48,18 @@ public class VentanaSecundaria extends JFrame {
 		setVisible(true);
 
 	}
-	
+
+	public void setIdentidad(Identidad identidad) {
+
+		txtNombre.setText(identidad.getNombre());
+		txtApellido.setText(identidad.getApellido());
+
+	}
+
+	public void setCallback(Callback callback) {
+		this.callback = callback;
+	}
+
 	public static void main(String[] args) {
 		new VentanaSecundaria();
 	}

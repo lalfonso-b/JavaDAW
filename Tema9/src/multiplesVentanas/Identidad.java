@@ -2,20 +2,20 @@ package multiplesVentanas;
 
 public class Identidad {
 
-	private String apellidos;
+	private String apellido;
 	private String nombre;
 
-	public Identidad(String apellidos, String nombre) {
-		this.apellidos = apellidos;
+	public Identidad(String apellido, String nombre) {
+		this.apellido = apellido;
 		this.nombre = nombre;
 	}
 
-	public String getApellidos() {
-		return apellidos;
+	public String getApellido() {
+		return apellido;
 	}
 
-	public void setApellidos(String apellidos) {
-		this.apellidos = apellidos;
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 
 	public String getNombre() {

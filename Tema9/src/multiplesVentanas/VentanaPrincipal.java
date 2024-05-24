@@ -23,6 +23,8 @@ public class VentanaPrincipal extends JFrame {
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 
 		setLayout(new FlowLayout(FlowLayout.LEFT));
+		
+		setLocationRelativeTo(null);
 
 		JLabel lblTuNombre = new JLabel("Tu nombre es:");
 		lblTuNombre.setPreferredSize(new Dimension(350, 30));
@@ -55,6 +57,21 @@ public class VentanaPrincipal extends JFrame {
 		
 		VentanaSecundaria ventana = new VentanaSecundaria();
 		ventana.setLocationRelativeTo(this);
+		
+		ventana.setIdentidad(new Identidad(apellido,nombre));
+		
+		ventana.setCallback(new Callback() {
+			
+			@Override
+			public void actualizarVentana(Identidad identidad) {
+				
+				nombre = identidad.getNombre();
+				apellido = identidad.getApellido();
+				
+				lblNombre.setText(nombre + " " + apellido);
+				
+			}
+		});
 		
 	}
 
