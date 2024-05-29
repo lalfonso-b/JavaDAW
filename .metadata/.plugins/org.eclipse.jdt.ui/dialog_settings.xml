@@ -181,7 +181,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 	</section>
 	<section name="javadoc">
-		<item key="javadoc_command_history" value="/home/csogorb/Escritorio/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre/bin/javadoc"/>
+		<item key="javadoc_command_history" value="/bin/javadoc:/home/csogorb/Escritorio/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre/bin/javadoc"/>
 		<item key="fromStandard" value="true"/>
 		<item key="docletname" value=""/>
 		<item key="docletpath" value=""/>
@@ -198,12 +198,12 @@
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="17"/>
 		<item key="antpath" value="/home/csogorb/eclipse-workspace/Tema9/javadoc.xml"/>
-		<item key="destdir" value="/home/csogorb/eclipse-workspace/Tema9/doc"/>
+		<item key="destdir" value="/home/csogorb/eclipse-workspace/Tema9/doc2"/>
 		<item key="additionalparam" value="-encoding UTF-8 -charset UTF-8 -docencoding UTF-8"/>
 		<section name="projects">
 			<section name="Tema9">
 				<item key="href" value=""/>
-				<item key="destdir" value="/home/csogorb/eclipse-workspace/Tema9/doc"/>
+				<item key="destdir" value="/home/csogorb/eclipse-workspace/Tema9/doc2"/>
 				<item key="antpath" value="/home/csogorb/eclipse-workspace/Tema9/javadoc.xml"/>
 			</section>
 			<section name="Tema8">
@@ -301,5 +301,8 @@
 		<item key="DIALOG_WIDTH" value="681"/>
 		<item key="DIALOG_HEIGHT" value="587"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="0"/>
 	</section>
 </section>

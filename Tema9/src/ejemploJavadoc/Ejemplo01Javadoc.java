@@ -148,7 +148,7 @@ public class Ejemplo01Javadoc extends JFrame {
 
 	/**
 	 * Método que nos inventamos para probar la documentación del Javadoc
-	 * 
+	 * aaaa
 	 * @param nombreViajero Nombre del viajero
 	 * @param edadViajero   Edad del viajero
 	 * @return Cadena con las opciones elegidas o <code>null</code>.
