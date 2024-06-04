@@ -7,40 +7,38 @@ import java.sql.Statement;
 public class Ejemplo01 {
 
 	public static void main(String[] args) {
-		
+
 		String url = "jdbc:mysql://192.168.3.13/Libreria";
 		String usuario = "librero";
 		String password = "Ageofempires2";
 		String sql = "select * from libros";
-		
+
 		try {
 			Connection conexion = DriverManager.getConnection(url, usuario, password);
-			
+
 			Statement statement = conexion.createStatement();
-			
+
 			ResultSet resultados = statement.executeQuery(sql);
-			
-			while(resultados.next()) {
-				
+
+			while (resultados.next()) {
+
 				System.out.println(resultados.getInt("id"));
 				System.out.println(resultados.getString("titulo"));
 				System.out.println(resultados.getString("autor"));
 				System.out.println(resultados.getFloat("precio"));
 				System.out.println(resultados.getInt("cantidad"));
 				System.out.println("-------------");
-				
+
 			}
-			
+
 			statement.close();
 			conexion.close();
-			
+
 		} catch (SQLException e) {
 			System.out.println("Error de acceso a la base de datos.");
 			e.printStackTrace();
 		}
-		
-		
-		
+
 	}
 
 }
