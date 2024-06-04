@@ -1,10 +1,11 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Ejemplo01 {
+public class Ejemplo02 {
 
 	public static void main(String[] args) {
 
@@ -12,18 +13,20 @@ public class Ejemplo01 {
 		String usuario = "librero";
 		String password = "Ageofempires2";
 
-		listar("---", url, usuario, password);
+		listar("Alejandro Dumas", url, usuario, password);
 
 	}
 
 	private static void listar(String autor, String url, String usuario, String password) {
 
-		String sql = "select * from libros where autor='" + autor + "'";
+		String sql = "select * from libros where autor=?";
 
 		try (Connection conexion = DriverManager.getConnection(url, usuario, password);
-				Statement statement = conexion.createStatement();) {
+				PreparedStatement preparedStatement = conexion.prepareStatement(sql)) {
 
-			ResultSet resultados = statement.executeQuery(sql);
+			preparedStatement.setString(1, autor);
+			
+			ResultSet resultados = preparedStatement.executeQuery();
 
 			System.out.println("LIBROS ESCRITOS POR: " + autor.toUpperCase());
 			while (resultados.next()) {
