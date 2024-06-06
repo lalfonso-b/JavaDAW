@@ -4534,3 +4534,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache:ap
 2024-06-06 15:16:17,295 [main] INFO  org.burningwave.core.Cache - (Cache.java:76) - Building cache
 2024-06-06 15:16:17,332 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:443) - org.burningwave.core.assembler.StaticComponentContainer initialized in 0.25176644 seconds
 2024-06-06 15:16:19,683 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-06 16:01:21,981 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
